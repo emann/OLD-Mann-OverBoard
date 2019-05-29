@@ -1,6 +1,6 @@
-var clientId = '434006345372-e656384tnqddrv3ss7la9k26mnmodt20.apps.googleusercontent.com'; //choose web app client Id, redirect URI and Javascript origin set to http://localhost
-var apiKey = 'AIzaSyBaW76ero9PeMyJ313nqCriZ59j4_cSDBI'; //choose public apiKey, any IP allowed (leave blank the allowed IP boxes in Google Dev Console)
-var userEmail = "emannguitar@gmail.com"; //your calendar Id
+var clientId = ''; //choose web app client Id, redirect URI and Javascript origin set to http://localhost
+var apiKey = ''; //choose public apiKey, any IP allowed (leave blank the allowed IP boxes in Google Dev Console)
+var userEmail = ""; //your calendar Id
 var userTimeZone = "New_York"; //example "Rome" "Los_Angeles" ecc...
 var maxRows = 20; //events to shown
 var calName = "YOUR CALENDAR NAME"; //name of calendar (write what you want, doesn't matter)

@@ -130,7 +130,7 @@
     }
 
     function loadWeather() { //loads current conditions and forecast from accuweather API
-      var currentWeather_URL = 'http://dataservice.accuweather.com/currentconditions/v1/2217809?apikey=mejpRASNhUtuqTRSpDsOS5yJTG3M728t';
+      var currentWeather_URL = 'http://dataservice.accuweather.com/currentconditions/v1/2217809?apikey=';
       var CurrentWeather_REQUEST = new XMLHttpRequest();
       CurrentWeather_REQUEST.open('GET', currentWeather_URL);
       CurrentWeather_REQUEST.responseType = 'json';
@@ -139,7 +139,7 @@
         var current = CurrentWeather_REQUEST.response;
         populateCurrent(current);
       }
-      var forecast_URL = 'http://dataservice.accuweather.com/forecasts/v1/daily/5day/2217809?apikey=mejpRASNhUtuqTRSpDsOS5yJTG3M728t';
+      var forecast_URL = 'http://dataservice.accuweather.com/forecasts/v1/daily/5day/2217809?apikey=';
       var Forecast_REQUEST = new XMLHttpRequest();
       Forecast_REQUEST.open('GET', forecast_URL);
       Forecast_REQUEST.responseType = 'json';
