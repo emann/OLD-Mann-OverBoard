@@ -1,0 +1,47 @@
+<!--DOCTYPE html-->
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Settings</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="fullsettingspage_style.css">
+  <link rel="icon" type="image/png" href="images/icon.png">
+  <script src="jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+  <h1>Calendar</h1>
+  <h1>Background</h1>
+  <ul>
+    <li>Image Collections:
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn" id="imgbtns">Dropdown</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#">Nature</a>
+          <a href="#">Space</a>
+        </div>
+      </div>
+    </li>
+  </ul>
+</body>
+
+<script type="text/javascript">
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+
+  // Close the dropdown menu if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+</script>

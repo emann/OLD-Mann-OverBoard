@@ -1,0 +1,11 @@
+-Fix calendar to show start (and end?) times
+-Tweak layout of calendar elements to be more in line with weather
+-Fix current_icon overlapping current_temp
+
+QUICK SETTINGS
+-Little gear icon in corner or middle left side (or click on time/other element???????)
+-Opens little settings window with options to:
+  -Change calendar
+  -Change Background (different image collections, colors)
+  -more?
+  -"More settings" or something similar, linking to full settings page

@@ -1,0 +1,235 @@
+<!--DOCTYPE html-->
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Mann OverBoard</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/icon.png">
+  <script src="jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+  <div id="body"><img src="" id="bg" alt=""></div>
+  <div id="container">
+    <div id="header">
+      <div class="calendar">
+        <div class="cal-container">
+          <p id="time"></p>
+          <p id="weekday" class="dayte"></p>
+          <p id="date" class="dayte"></p>
+        </div>
+        <div class="cal-container">
+          <p id="cal_day0">Today</p>
+          <ul id="cal_day0_list" style="list-style-type:none;"></ul>
+        </div>
+        <div class="cal-container">
+          <p id="cal_day1"></p>
+          <ul id="cal_day1_list" style="list-style-type:none;"></ul>
+        </div>
+        <div class="cal-container">
+          <p id="cal_day2"></p>
+          <ul id="cal_day2_list" style="list-style-type:none;"></ul>
+        </div>
+        <div class="cal-container">
+          <p id="cal_day3"></p>
+          <ul id="cal_day3_list" style="list-style-type:none;"></ul>
+        </div>
+        <div class="cal-container">
+          <p id="cal_day4"></p>
+          <ul id="cal_day4_list" style="list-style-type:none;"></ul>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="weather">
+        <div class="weather-container">
+          <div class="current-container1">
+            <p id="current_temp"></p>
+          </div>
+          <div class="current-container2">
+            <a href = "fullsettingspage.html" style="color: #ffffff; text-decoration: none;">
+              <img id="current_icon" src="test.png" alt="Current Weather Icon" style="width:125%">
+            </a>
+          </div>
+        </div>
+        <div class="weather-container">
+          <p id="weather_day0_DATE" class="weather-dates">Today</p>
+          <div class="temps">
+            <p id="weather_day0_HIGH"></p>
+            <p id="weather_day0_LOW"></p>
+          </div>
+          <img id="weather_day0_ICON" src="test.png" alt="weather icon" style="width:75%">
+        </div>
+        <div class="weather-container">
+          <p id="weather_day1_DATE" class="weather-dates">Today</p>
+          <div class="temps">
+            <p id="weather_day1_HIGH"></p>
+            <p id="weather_day1_LOW"></p>
+          </div>
+          <img id="weather_day1_ICON" src="test.png" alt="weather icon" style="width:75%">
+        </div>
+        <div class="weather-container">
+          <p id="weather_day2_DATE" class="weather-dates">Today</p>
+          <div class="temps">
+            <p id="weather_day2_HIGH"></p>
+            <p id="weather_day2_LOW"></p>
+          </div>
+          <img id="weather_day2_ICON" src="test.png" alt="weather icon" style="width:75%">
+        </div>
+        <div class="weather-container">
+          <p id="weather_day3_DATE" class="weather-dates">Today</p>
+          <div class="temps">
+            <p id="weather_day3_HIGH"></p>
+            <p id="weather_day3_LOW"></p>
+          </div>
+          <img id="weather_day3_ICON" src="test.png" alt="weather icon" style="width:75%">
+        </div>
+        <div class="weather-container">
+          <p id="weather_day4_DATE" class="weather-dates">Today</p>
+          <div class="temps">
+            <p id="weather_day4_HIGH"></p>
+            <p id="weather_day4_LOW"></p>
+          </div>
+          <img id="weather_day4_ICON" src="test.png" alt="weather icon" style="width:75%">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    function singleDigitFix(x) {
+      if (x < 10) { //fixes single digit mintues displaying as 12:3 instead of 12:03
+        x = '0' + x;
+      }
+      return x;
+    }
+    function updateTime() { //Updates the Time display; Updates all dates/weekdays displayed every 12 hours
+      var today = new Date();
+      var hrs = (today.getHours()) % 12;
+      if (hrs == 0) {
+        hrs = 12;
+        updateDates();
+      }
+      var mins = singleDigitFix(today.getMinutes());
+      var time = '' + hrs + ':' + mins;
+      document.getElementById('time').textContent = time;
+    }
+
+    function updateDates() { //updates all displayed days dates; current, calendar, and weather
+      var today = new Date();
+      var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+      var weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+      document.getElementById('weekday').textContent = weekdays[today.getDay()];
+      document.getElementById('date').textContent = months[today.getMonth()] + ' ' + today.getDate();
+      for (i = 1; i < 5; i++) {
+        var day = new Date(Date.now() + 86400000 * i);
+        document.getElementById('cal_day' + i).textContent = day.getDate() + ' ' + weekdays[day.getDay()];
+        document.getElementById('weather_day' +i+"_DATE").textContent = weekdays[day.getDay()];
+      }
+    }
+
+    function loadWeather() { //loads current conditions and forecast from accuweather API
+      var currentWeather_URL = 'http://dataservice.accuweather.com/currentconditions/v1/2217809?apikey=mejpRASNhUtuqTRSpDsOS5yJTG3M728t';
+      var CurrentWeather_REQUEST = new XMLHttpRequest();
+      CurrentWeather_REQUEST.open('GET', currentWeather_URL);
+      CurrentWeather_REQUEST.responseType = 'json';
+      CurrentWeather_REQUEST.send();
+      CurrentWeather_REQUEST.onload = function() {
+        var current = CurrentWeather_REQUEST.response;
+        populateCurrent(current);
+      }
+      var forecast_URL = 'http://dataservice.accuweather.com/forecasts/v1/daily/5day/2217809?apikey=mejpRASNhUtuqTRSpDsOS5yJTG3M728t';
+      var Forecast_REQUEST = new XMLHttpRequest();
+      Forecast_REQUEST.open('GET', forecast_URL);
+      Forecast_REQUEST.responseType = 'json';
+      Forecast_REQUEST.send();
+      Forecast_REQUEST.onload = function() {
+        var accuweather = Forecast_REQUEST.response;
+        populateForecast(accuweather);
+      }
+
+      function populateCurrent(jsonObj) { //populates current weather conditions
+        var currentWeather = jsonObj[0]
+        document.getElementById('current_temp').textContent = currentWeather['Temperature']['Imperial']['Value'] + '°';
+        document.getElementById('current_icon').src = 'https://developer.accuweather.com/sites/default/files/' + singleDigitFix(currentWeather["WeatherIcon"]) + '-s.png';
+      }
+      function populateForecast(jsonObj) { //populates 5 day forecast
+        var forecasts = jsonObj['DailyForecasts']
+        for (day = 0; day < 5; day++) {
+          document.getElementById('weather_day' + day+'_LOW').textContent = forecasts[day]['Temperature']['Minimum']['Value'];
+          document.getElementById('weather_day' + day+'_HIGH').textContent = forecasts[day]['Temperature']['Maximum']['Value'];
+          document.getElementById('weather_day' + day+'_ICON').src = 'https://developer.accuweather.com/sites/default/files/' + singleDigitFix(forecasts[day]["Day"]["Icon"]) + '-s.png';
+        }
+      }
+
+    }
+
+    // function loadCalendar() {
+    //   var calendar_URL = 'https://ical-to-json.herokuapp.com/convert.json?url=https%3A%2F%2Fcalendar.google.com%2Fcalendar%2Fical%2Femannguitar%2540gmail.com%2Fprivate-929c0c0e2b253bf5e035f80be76cc3d6%2Fbasic.ics';
+    //   var Calendar_REQUEST = new XMLHttpRequest();
+    //   Calendar_REQUEST.open('GET', calendar_URL);
+    //   Calendar_REQUEST.responseType = 'text';
+    //   Calendar_REQUEST.send();
+    //   Calendar_REQUEST.onload = function() {
+    //     var calendarText = Calendar_REQUEST.response;
+    //     var calendar = JSON.parse(calendarText);
+    //     populateCalendar(calendar);
+    //   }
+    //
+    //   function populateCalendar(jsonObj) {
+    //     var table = document.getElementById("calendar");
+    //     var events = jsonObj['vcalendar'][0]['vevent'];
+    //     var time = Math.round((new Date()).getTime() / 1000);
+    //     var today = time - time % 86400 - 18000;
+    //     var tomorrow = today + 86400;
+    //
+    //     function inDate(i, day) { //checks if event at index 'i' is in date according to 'day'
+    //       var year = parseInt(events[i]['dtstart'].substring(0, 4), 10);
+    //       var month = parseInt(events[i]['dtstart'].substring(4, 6), 10);
+    //       var day = parseInt(events[i]['dtstart'].substring(6, 8), 10);
+    //       var epoch_ms = new Date(year, month - 1, day).getTime();
+    //       var epoch = epoch_ms / 1000;
+    //       return ((epoch >= today) && (epoch < (tomorrow + 86400 * day))); //checks that event occurs within the next five days, including today.
+    //     }
+    //     var eventIndex = 0;
+    //     var day;
+    //     for (day = 0; day < 5; day++) {
+    //       while (inDate(eventIndex, day)) { //while the events are still in date, adds event to specified day. Once the given event is out of date, the for loop interates to the next day.
+    //         document.getElementById('cal_day'+day).textContent = events[eventIndex]['dtstart'];
+    //         eventIndex++;
+    //       }
+    //     }
+    //   }
+    // }
+    var backgroundImages_Nature = ['https://source.unsplash.com/collection/327760/1920x1080', 'https://source.unsplash.com/collection/212915/1920x1080', 'https://source.unsplash.com/collection/158642/1920x1080'];
+    var backgroundImages_Nasa = ['https://source.unsplash.com/user/nasa/1920x1080','https://source.unsplash.com/user/nasa/1920x1080'];
+    var backgroundImages = backgroundImages_Nature;
+    var index = 0;
+    var $background = $('#bg');
+    function changeBackground() {
+        $background.animate({
+            opacity: 0
+        }, 2000, function() {
+          index += 1
+            $background.attr('src', backgroundImages[index] +'?sig=' + new Date().getTime());//$background.css('background-image', 'url(' + backgroundImages_Nasa[++index] +'?sig=' + new Date().getTime()+ ')');
+            $background.animate({
+                opacity: 0.5
+            }, 2000, function() {
+                if (index === backgroundImages.length-1) index = 0;
+            });
+        });
+    }
+    document.getElementById('bg').src = backgroundImages[0];
+    updateDates();
+    updateTime();
+    loadWeather();
+    setInterval(changeBackground, 10000);
+    setInterval(updateTime, 1000);
+    setInterval(loadWeather, 1800000);
+  </script>
+  <script src='calendar.js'></script>
+  <script src='https://apis.google.com/js/client.js?onload=handleClientLoad'></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+[{
+  "LocalObservationDateTime": "2019-01-29T12:12:00-05:00",
+  "EpochTime": 1548781920,
+  "WeatherText": "Cloudy",
+  "WeatherIcon": 7,
+  "HasPrecipitation": false,
+  "PrecipitationType": null,
+  "IsDayTime": true,
+  "Temperature": {
+    "Metric": {
+      "Value": -0.6,
+      "Unit": "C",
+      "UnitType": 17
+    },
+    "Imperial": {
+      "Value": 31.0,
+      "Unit": "F",
+      "UnitType": 18
+    }
+  },
+  "MobileLink": "http://m.accuweather.com/en/us/storrs-ct/06269/current-weather/2217809?lang=en-us",
+  "Link": "http://www.accuweather.com/en/us/storrs-ct/06269/current-weather/2217809?lang=en-us"
+}]

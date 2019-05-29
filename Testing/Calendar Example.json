@@ -1,0 +1,4212 @@
+{ 
+  "vcalendar": [{
+    "prodid": "-//Google Inc//Google Calendar 70.9054//EN",
+    "version": "2.0",
+    "calscale": "GREGORIAN",
+    "method": "PUBLISH",
+    "x-wr-calname": "emannguitar@gmail.com",
+    "x-wr-timezone": "America/New_York",
+    "vtimezone": [{
+      "tzid": "America/New_York",
+      "x-lic-location": "America/New_York",
+      "daylight": [{
+        "tzoffsetfrom": "-0500",
+        "tzoffsetto": "-0400",
+        "tzname": "EDT",
+        "dtstart": "19700308T020000",
+        "rrule": {
+          "freq": "YEARLY",
+          "bymonth": "3",
+          "byday": "2SU"
+        }
+      }],
+      "standard": [{
+        "tzoffsetfrom": "-0400",
+        "tzoffsetto": "-0500",
+        "tzname": "EST",
+        "dtstart": "19701101T020000",
+        "rrule": "FREQ=YEARLY;BYMONTH=11;BYDAY=1SU"
+      }]
+    }, {
+      "tzid": "America/Detroit",
+      "x-lic-location": "America/Detroit",
+      "daylight": [{
+        "tzoffsetfrom": "-0500",
+        "tzoffsetto": "-0400",
+        "tzname": "EDT",
+        "dtstart": "19700308T020000",
+        "rrule": {
+          "freq": "YEARLY",
+          "bymonth": "3",
+          "byday": "2SU"
+        }
+      }],
+      "standard": [{
+        "tzoffsetfrom": "-0400",
+        "tzoffsetto": "-0500",
+        "tzname": "EST",
+        "dtstart": "19701101T020000",
+        "rrule": "FREQ=YEARLY;BYMONTH=11;BYDAY=1SU"
+      }]
+    }],
+    "vevent": [{
+      "dtstart": "20190103T140000Z",
+      "dtend": "20190103T230000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6krm8o9kc4o3ib9jcgo66b9kckr3abb165i34b9n69h3gdpm60pm6d1lco@google.com",
+      "created": "20181230T000905Z",
+      "description": "",
+      "last-modified": "20181230T011546Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "1",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20190101T140000Z",
+      "dtend": "20190101T230000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6kojichmcko3ab9ncoo68b9kcopj2bb2chgjcb9h74ojcohl6sp64d9g6c@google.com",
+      "created": "20181230T000904Z",
+      "description": "",
+      "last-modified": "20181230T000954Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "1",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20181231T113000Z",
+      "dtend": "20181231T193000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "c8sj8phi6opjibb1cco6ab9k69ij2b9oc8p34b9lc8r30ohp6sq6ap1o68@google.com",
+      "created": "20181230T000828Z",
+      "description": "",
+      "last-modified": "20181230T000954Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "1",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20181230T123000Z",
+      "dtend": "20181230T193000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "70om2opocgq3gb9lc8q66b9kckrjcb9o6ko64b9g68s68cb36dj3acj3cg@google.com",
+      "created": "20181230T000702Z",
+      "description": "",
+      "last-modified": "20181230T000953Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "1",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20190105T140000Z",
+      "dtend": "20190105T230000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6pi62c9h6kr6cbb6ccp36b9k70qjcb9o70s32bb16so62phmc8p68c1h6s@google.com",
+      "created": "20181230T000905Z",
+      "description": "",
+      "last-modified": "20181230T000906Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20190217T010000Z",
+      "dtend": "20190217T020000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "69hj0phn6kq64bb66hhj2b9kcco6abb26dij0b9n6cqjaeb46cq6ap1lco@google.com",
+      "created": "20181227T054637Z",
+      "description": "",
+      "last-modified": "20181227T054637Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Demetri Martin",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20181221T113000Z",
+      "dtend": "20181221T193000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "342tm4pvafrps7gfkipqc4mvop@google.com",
+      "created": "20181216T032947Z",
+      "description": "",
+      "last-modified": "20181216T032947Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20181220T113000Z",
+      "dtend": "20181220T193000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "1ag6r9pvu5e0ckctocv4dhb4m6@google.com",
+      "created": "20181216T032938Z",
+      "description": "",
+      "last-modified": "20181216T032938Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20181218T113000Z",
+      "dtend": "20181218T193000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "0hnivvkhja8h0jb3g39pph0uua@google.com",
+      "created": "20181216T032828Z",
+      "description": "",
+      "last-modified": "20181216T032828Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20181212T130000Z",
+      "dtend": "20181212T150000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "34hhrkof6l9cpmu9eo40nb95pq@google.com",
+      "created": "20181203T031255Z",
+      "description": "",
+      "last-modified": "20181203T031255Z",
+      "location": "154 Torrey Life Sciences Building\\, 75 N Eagleville Rd\\, Storrs\\, CT 06269\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Chem Final",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20181212T180000Z",
+      "dtend": "20181212T200000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "51oomq94elo8hje8ufri83ffer@google.com",
+      "created": "20181203T031119Z",
+      "description": "",
+      "last-modified": "20181203T031119Z",
+      "location": "105 Philip E. Austin Building\\, 270 Middle Turnpike Rd\\, Storrs\\, CT 06269\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Multivariable Calc Final",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20181212T230000Z",
+      "dtend": "20181213T010000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "5n81d42150n5a5ecjth0mfp6hc@google.com",
+      "created": "20181203T031019Z",
+      "description": "",
+      "last-modified": "20181203T031019Z",
+      "location": "105 Philip E. Austin Building\\, 270 Middle Turnpike Rd\\, Storrs\\, CT 06269\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "CSE 1729 Final",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20181214T130000Z",
+      "dtend": "20181214T150000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "36un2fpu3nqbch7t0c09sgfpg5@google.com",
+      "created": "20181203T030939Z",
+      "description": "",
+      "last-modified": "20181203T030939Z",
+      "location": "321 Engineering II\\, Storrs\\, CT 06269\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Genetic Revolution Final",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20181211T130000Z",
+      "dtend": "20181211T150000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "4sjqq4sqnm625m9np89hjd79tm@google.com",
+      "created": "20181203T030706Z",
+      "description": "",
+      "last-modified": "20181203T030725Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "ENG1000 Final",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": ["20181129T153000", {
+        "tzid": "America/New_York"
+      }],
+      "dtend": ["20181129T162000", {
+        "tzid": "America/New_York"
+      }],
+      "dtstamp": "20181231T220626Z",
+      "uid": "208769mjsvgostvijfalp43jj2@google.com",
+      "recurrence-id": "20181129T153000",
+      "created": "20180829T203114Z",
+      "description": "",
+      "last-modified": "20181127T175052Z",
+      "location": "305 Lawrence D. McHugh Hall\\, Storrs\\, CT 06269\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "OCP: Video Streaming: Youtube - Behind the Scenes",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": ["20181222", {
+        "value": "DATE"
+      }],
+      "dtend": ["20190102", {
+        "value": "DATE"
+      }],
+      "dtstamp": "20181231T220626Z",
+      "uid": "60o38e9m64o66bb274r34b9kchhj8bb2cgp3eb9l6ks68d9nc4qj6or16s@google.com",
+      "created": "20181125T065740Z",
+      "description": "3 dogs",
+      "last-modified": "20181125T065740Z",
+      "location": "30 Catbrier Rd",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Housesitting for Yons",
+      "transp": "TRANSPARENT"
+    }, {
+      "dtstart": "20181123T140000Z",
+      "dtend": "20181123T230000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "30m9pcm2b06tc3q30i5e6545cl@google.com",
+      "created": "20181114T153036Z",
+      "description": "",
+      "last-modified": "20181117T202023Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "1",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20181125T123000Z",
+      "dtend": "20181125T193000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "4uq505p3pgdpgbcr5nmcl010lk@google.com",
+      "created": "20181114T154441Z",
+      "description": "",
+      "last-modified": "20181114T154502Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "2",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20181124T140000Z",
+      "dtend": "20181124T230000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "5c799kr6kj068c9um4hj62c84f@google.com",
+      "created": "20181114T153048Z",
+      "description": "",
+      "last-modified": "20181114T153048Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20181117T140000Z",
+      "dtend": "20181117T230000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "4fh8v9hh9l6u8i1ccj3v9m4qmi@google.com",
+      "created": "20181114T152905Z",
+      "description": "",
+      "last-modified": "20181114T152925Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": ["20180831T080000", {
+        "tzid": "America/Detroit"
+      }],
+      "dtend": ["20180831T110000", {
+        "tzid": "America/Detroit"
+      }],
+      "rrule": {
+        "freq": "WEEKLY",
+        "wkst": "SU",
+        "until": "20181116T045959Z",
+        "byday": "FR"
+      },
+      "exdate": [
+        ["20181012T080000"], {
+          "tzid": "America/Detroit"
+        }
+      ],
+      "dtstamp": "20181231T220626Z",
+      "uid": "6oom4chh71h64b9icli3cb9k70r3ibb2c8rmcbb2ckoj4e9m69ijio9lc8@google.com",
+      "created": "20180629T183728Z",
+      "description": "",
+      "last-modified": "20181108T014247Z",
+      "location": "Chemistry Building\\, Chemistry Bldg\\, Storrs\\, CT 06269\\, USA",
+      "sequence": "1",
+      "status": "CONFIRMED",
+      "summary": "Chemistry (LAB)",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": ["20190124T090000", {
+        "tzid": "America/New_York"
+      }],
+      "dtend": ["20190124T120000", {
+        "tzid": "America/New_York"
+      }],
+      "rrule": {
+        "freq": "WEEKLY",
+        "until": "20190503T035959Z",
+        "byday": "TH"
+      },
+      "dtstamp": "20181231T220626Z",
+      "uid": "7he5o87rqnutr7fqkgb6cvrcn9@google.com",
+      "created": "20181105T142207Z",
+      "description": "",
+      "last-modified": "20181105T142207Z",
+      "location": "203 Gant West Building\\, University of Connecticut\\, Auditorium Rd Ext\\, Storrs\\, CT 06268\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Physics for Engineers (LAB)",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": ["20190123T110000", {
+        "tzid": "America/New_York"
+      }],
+      "dtend": ["20190123T121500", {
+        "tzid": "America/New_York"
+      }],
+      "rrule": {
+        "freq": "WEEKLY",
+        "until": "20190502T035959Z",
+        "byday": "WE"
+      },
+      "dtstamp": "20181231T220626Z",
+      "uid": "5b5685ej0fi2emtufb7rmeem4h@google.com",
+      "created": "20181105T142121Z",
+      "description": "",
+      "last-modified": "20181105T142121Z",
+      "location": "138 Information Technologies Engineering Building\\, Information TECHNOLOGIES Engineering Bldg\\, Storrs\\, CT 06269\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "CSE 2050 (LAB)",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": ["20190121T090500", {
+        "tzid": "America/New_York"
+      }],
+      "dtend": ["20190121T095500", {
+        "tzid": "America/New_York"
+      }],
+      "rrule": {
+        "freq": "WEEKLY",
+        "until": "20190504T035959Z",
+        "byday": "MO",
+        "we": null,
+        "fr": null
+      },
+      "exdate": [
+        ["20190121T090500"], {
+          "tzid": "America/New_York"
+        }
+      ],
+      "dtstamp": "20181231T220626Z",
+      "uid": "6qje5fvc8rnvv90lb1mah2oem3@google.com",
+      "created": "20181105T141044Z",
+      "description": "",
+      "last-modified": "20181105T142025Z",
+      "location": "C80 Information Technologies Engineering Building\\, Information TECHNOLOGIES Engineering Bldg\\, Storrs\\, CT 06269\\, USA",
+      "sequence": "1",
+      "status": "CONFIRMED",
+      "summary": "Macroeconomics (L)",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": ["20190121T122000", {
+        "tzid": "America/New_York"
+      }],
+      "dtend": ["20190121T131000", {
+        "tzid": "America/New_York"
+      }],
+      "rrule": {
+        "freq": "WEEKLY",
+        "until": "20190504T035959Z",
+        "byday": "MO",
+        "we": null,
+        "fr": null
+      },
+      "exdate": [
+        ["20190121T122000"], {
+          "tzid": "America/New_York"
+        }
+      ],
+      "dtstamp": "20181231T220626Z",
+      "uid": "1ak3t4b0gkc2ieega5s91s30k3@google.com",
+      "created": "20181105T141551Z",
+      "description": "",
+      "last-modified": "20181105T142016Z",
+      "location": "36 Gant West Building\\, University of Connecticut\\, Auditorium Rd Ext\\, Storrs\\, CT 06268\\, USA",
+      "sequence": "1",
+      "status": "CONFIRMED",
+      "summary": "Physics for Engineers (L)",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": ["20190122T153000", {
+        "tzid": "America/New_York"
+      }],
+      "dtend": ["20190122T164500", {
+        "tzid": "America/New_York"
+      }],
+      "rrule": {
+        "freq": "WEEKLY",
+        "until": "20190503T035959Z",
+        "byday": "TU",
+        "th": null
+      },
+      "dtstamp": "20181231T220626Z",
+      "uid": "34t224mgodhkjhucln4pirv0bb@google.com",
+      "created": "20181105T142001Z",
+      "description": "",
+      "last-modified": "20181105T142001Z",
+      "location": "201 Ratcliffe Hicks Building and Arena\\, Ratcliffe Hicks Bldg and Arena\\, Storrs\\, CT 06269\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "CSE 2050 (L)",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": ["20190121T132500", {
+        "tzid": "America/New_York"
+      }],
+      "dtend": ["20190121T141500", {
+        "tzid": "America/New_York"
+      }],
+      "rrule": {
+        "freq": "WEEKLY",
+        "until": "20190504T035959Z",
+        "byday": "MO",
+        "we": null,
+        "fr": null
+      },
+      "exdate": [
+        ["20190121T132500"], {
+          "tzid": "America/New_York"
+        }
+      ],
+      "dtstamp": "20181231T220626Z",
+      "uid": "5d5i8q4vrfi96rpmt9vn2skeka@google.com",
+      "created": "20181105T141803Z",
+      "description": "",
+      "last-modified": "20181105T141803Z",
+      "location": "306 McHugh Hall\\, Hillside Rd\\, Storrs\\, CT 06269\\, United States",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "CSE 2500 (L)",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": ["20181101T153000", {
+        "tzid": "America/New_York"
+      }],
+      "dtend": ["20181101T162000", {
+        "tzid": "America/New_York"
+      }],
+      "dtstamp": "20181231T220626Z",
+      "uid": "208769mjsvgostvijfalp43jj2@google.com",
+      "recurrence-id": "20181101T153000",
+      "created": "20180829T203114Z",
+      "description": "",
+      "last-modified": "20181029T220122Z",
+      "location": "125 Information Technologies Engineering Building\\, Information TECHNOLOGIES Engineering Bldg\\, Storrs\\, CT 06269\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "OCP: Computational Material Design",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": ["20181215", {
+        "value": "DATE"
+      }],
+      "dtend": ["20190121", {
+        "value": "DATE"
+      }],
+      "dtstamp": "20181231T220626Z",
+      "uid": "056s08jsrloebvb9cuq60rdkuj@google.com",
+      "created": "20181029T141807Z",
+      "description": "",
+      "last-modified": "20181029T141807Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Winter Break",
+      "transp": "TRANSPARENT"
+    }, {
+      "dtstart": ["20181117", {
+        "value": "DATE"
+      }],
+      "dtend": ["20181126", {
+        "value": "DATE"
+      }],
+      "dtstamp": "20181231T220626Z",
+      "uid": "3tl2t207f51tr4540m91rvlj9j@google.com",
+      "created": "20181029T141523Z",
+      "description": "",
+      "last-modified": "20181029T141523Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Thanksgiving Break",
+      "transp": "TRANSPARENT"
+    }, {
+      "dtstart": "20181103T183000Z",
+      "dtend": "20181103T184500Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "33n1ekfcodb2bbns82ftgp2vbh@google.com",
+      "created": "20181029T002053Z",
+      "description": "",
+      "last-modified": "20181029T002128Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Academic 1 on 1",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }, {
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P1D"
+      }]
+    }, {
+      "dtstart": "20181101T210000Z",
+      "dtend": "20181101T213000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6ntekkpkhgnor955t3k8afjpr1@google.com",
+      "created": "20181016T062555Z",
+      "description": "",
+      "last-modified": "20181028T003001Z",
+      "location": "Lester E. Shippee Residence Hall\\, Storrs\\, CT 06269\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "UNIV Resume Workshop",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P1D"
+      }, {
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H10M0S"
+      }, {
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P7D"
+      }]
+    }, {
+      "dtstart": "20181016T144200Z",
+      "dtend": "20181016T172000Z",
+      "dtstamp": "20181231T220626Z",
+      "organizer": "mailto:unknownorganizer@calendar.google.com",
+      "uid": "7kukuqrfedlm2f9t6r5q185usiianeuaunkfka315ntog8ncchmo2l1r0e6mc5077nhg",
+      "attendee": "mailto:emannguitar@gmail.com",
+      "class": "PRIVATE",
+      "created": "20180829T163506Z",
+      "description": "To see detailed information for automatically created events like this one\\, use the official Google Calendar app. https://g.co/calendar\\n\\nThis event was created from an email you received in Gmail. https://mail.google.com/mail?extsrc=cal&plid=ACUX6DPhu_D-8R9FG3QKhWAGuSAKefafkNuZg1c\\n",
+      "last-modified": "20181016T171545Z",
+      "location": "Memphis MEM",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Flight to New York City (AA 3905)",
+      "transp": "TRANSPARENT"
+    }, {
+      "dtstart": "20181010T222500Z",
+      "dtend": "20181011T012500Z",
+      "dtstamp": "20181231T220626Z",
+      "organizer": "mailto:unknownorganizer@calendar.google.com",
+      "uid": "7kukuqrfedlm2f9t63b8fnd8ahsa1e1jrqjq99tdg7al5frlubd925dfbs3n4c511cpg",
+      "attendee": "mailto:emannguitar@gmail.com",
+      "class": "PRIVATE",
+      "created": "20180829T163506Z",
+      "description": "To see detailed information for automatically created events like this one\\, use the official Google Calendar app. https://g.co/calendar\\n\\nThis event was created from an email you received in Gmail. https://mail.google.com/mail?extsrc=cal&plid=ACUX6DPhu_D-8R9FG3QKhWAGuSAKefafkNuZg1c\\n",
+      "last-modified": "20181011T010319Z",
+      "location": "New York City LGA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Flight to Memphis (AA 3473)",
+      "transp": "TRANSPARENT"
+    }, {
+      "dtstart": "20181008T162000Z",
+      "dtend": "20181008T171000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6fk1qebm4sr45ghjrf4hr5qtl6@google.com",
+      "created": "20181005T185136Z",
+      "description": "",
+      "last-modified": "20181005T185136Z",
+      "location": "T212 Chemistry Building\\, Chemistry Bldg\\, Storrs\\, CT 06269\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Chemistry (D)",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20181008T172500Z",
+      "dtend": "20181008T202500Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "5316o4pos12n0dbk5okobitbdp@google.com",
+      "created": "20181005T185056Z",
+      "description": "",
+      "last-modified": "20181005T185056Z",
+      "location": "Chemistry Building\\, Chemistry Bldg\\, Storrs\\, CT 06269\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Chemistry (LAB)",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20181008T220000Z",
+      "dtend": "20181008T230000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "ckqj0dhi6gs6cb9n6dhj0b9kc9h6ab9p6opm6b9k74rmac32ckqm4d1mc4@google.com",
+      "created": "20181004T025251Z",
+      "description": "",
+      "last-modified": "20181004T025251Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Pizza and Picking Times",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20181018T001500Z",
+      "dtend": "20181018T010000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "2gp6ikgkru7dik3e6hnh0lmgg9@google.com",
+      "created": "20181002T144029Z",
+      "description": "Court 3",
+      "last-modified": "20181002T144029Z",
+      "location": "UConn Recreation\\, 2111 Hillside Rd #1078r\\, Storrs\\, CT 06269\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Walleyball VS The Empire Spikes Back",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20181004T001500Z",
+      "dtend": "20181004T010000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "0i85se85gup9kk10kflgj9c98l@google.com",
+      "created": "20181002T143940Z",
+      "description": "Court 3",
+      "last-modified": "20181002T143941Z",
+      "location": "UConn Recreation\\, 2111 Hillside Rd #1078r\\, Storrs\\, CT 06269\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Walleyball VS Spike My Drink",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20181003T233000Z",
+      "dtend": "20181004T001500Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "503jmr2vf9626iud4bi7770sqq@google.com",
+      "created": "20181002T143752Z",
+      "description": "Court 3",
+      "last-modified": "20181002T143859Z",
+      "location": "UConn Recreation\\, 2111 Hillside Rd #1078r\\, Storrs\\, CT 06269\\, USA",
+      "sequence": "1",
+      "status": "CONFIRMED",
+      "summary": "Walleyball VS Jenny from the Block",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20181004T223000Z",
+      "dtend": "20181004T233000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "7651thd27qs0lbr3ubs6b2oj1v@google.com",
+      "created": "20181002T142145Z",
+      "description": "",
+      "last-modified": "20181002T142145Z",
+      "location": "110 Philip E. Austin Building\\, 270 Middle Turnpike Rd\\, Storrs\\, CT 06269\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Google Tech Talk",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20181004T210000Z",
+      "dtend": "20181004T220000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "3l5e6veq2d8nsdn74jqonafkbo@google.com",
+      "created": "20181002T142100Z",
+      "description": "",
+      "last-modified": "20181002T142100Z",
+      "location": "227 School of Business Building\\, 2100 Hillside Rd\\, Storrs\\, CT 06269\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Google Resume Workshop",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20180928T210000Z",
+      "dtend": "20180928T213000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "c8q3ip1i6dgjeb9o6co62b9kcgojcb9p6gp34b9m6srm6cpi6sq3ee1h60@google.com",
+      "created": "20180924T043351Z",
+      "description": "",
+      "last-modified": "20180924T043351Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Roompact Agreement meeting",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20181019T170000Z",
+      "dtend": "20181019T190000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "1vagp9g62lo52e72n8csc9n5k4@google.com",
+      "created": "20180920T182009Z",
+      "description": "",
+      "last-modified": "20180920T182521Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Drones in Business Workshop (Candoo)",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }, {
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P7D"
+      }]
+    }, {
+      "dtstart": "20181026T170000Z",
+      "dtend": "20181026T191500Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "76p9n3k8knspgb4k5n2sjnqk68@google.com",
+      "created": "20180920T182102Z",
+      "description": "",
+      "last-modified": "20180920T182441Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Wearable Technology Workshop (Innovate)",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }, {
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P7D"
+      }]
+    }, {
+      "dtstart": "20181102T170000Z",
+      "dtend": "20181102T190000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "4va3tad989ho53tl9g7veklp0o@google.com",
+      "created": "20180920T182208Z",
+      "description": "",
+      "last-modified": "20180920T182420Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Industrial IoT Workshop (Innovate)",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }, {
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P7D"
+      }]
+    }, {
+      "dtstart": "20181130T180000Z",
+      "dtend": "20181130T200000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "028eu3hqn4ahjna0lr7bst5mmh@google.com",
+      "created": "20180920T182229Z",
+      "description": "",
+      "last-modified": "20180920T182404Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Augmented Reality in Action Workshop (Innovate)",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }, {
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P7D"
+      }]
+    }, {
+      "dtstart": "20180925T141500Z",
+      "dtend": "20180925T144500Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "18c45joghecfvupp303i5kd402@google.com",
+      "created": "20180920T000538Z",
+      "description": "",
+      "last-modified": "20180920T000538Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Academic Advisory Meeting",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20180918T211500Z",
+      "dtend": "20180918T213000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "7rforntpelrhef2m2g1nrrv7dk@google.com",
+      "created": "20180917T151407Z",
+      "description": "",
+      "last-modified": "20180917T230253Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "1 on 1 with Aug",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20180913T210000Z",
+      "dtend": "20180913T220000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "3ajk2e36kmii3b8b33rn6gtjh0@google.com",
+      "created": "20180911T192939Z",
+      "description": "",
+      "last-modified": "20180911T192939Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Cogen Plant Tour",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20180913T223000Z",
+      "dtend": "20180914T003000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "273vilt15md1js70vhl800tvkv@google.com",
+      "created": "20180910T155333Z",
+      "description": "",
+      "last-modified": "20180910T155351Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "First ACM Meeting",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20180912T230000Z",
+      "dtend": "20180913T000000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "5ja3p8e26h7bj5q94646pqo2ko@google.com",
+      "created": "20180910T155048Z",
+      "description": "",
+      "last-modified": "20180910T155048Z",
+      "location": "301 ITE Building\\, 369 Fairfield Way\\, Storrs\\, CT 06268\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Cybersecurity First Meeting",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20180911T210000Z",
+      "dtend": "20180911T220000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "3bf2nesvsmvqa1o4t7knls23k2@google.com",
+      "created": "20180910T154933Z",
+      "description": "",
+      "last-modified": "20180910T154933Z",
+      "location": "401a ITE Building\\, 369 Fairfield Way\\, Storrs\\, CT 06268\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "First UAVS Meeting",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20180920T140000Z",
+      "dtend": "20180920T143000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "0cujrvv1egsp9mdn4auo0ase3g@google.com",
+      "created": "20180910T153934Z",
+      "description": "",
+      "last-modified": "20180910T153934Z",
+      "location": "413 Rowe Center for Undergraduate Education\\, 368 Fairfield Way\\, Storrs\\, CT 06269\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "STEM Scholar Advisory Meeting",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20181022T010000Z",
+      "dtend": "20181022T040000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6ehvq9mtsddtoe2dlrqkkn7k55@google.com",
+      "created": "20180910T151405Z",
+      "description": "",
+      "last-modified": "20180910T151405Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Brockhampton",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": ["20180828T080000", {
+        "tzid": "America/New_York"
+      }],
+      "dtend": ["20180828T095000", {
+        "tzid": "America/New_York"
+      }],
+      "rrule": {
+        "freq": "WEEKLY",
+        "until": "20181205T045959Z",
+        "byday": "TU"
+      },
+      "exdate": [
+        ["20181120T080000"], {
+          "tzid": "America/New_York"
+        }
+      ]
+    }, {
+      "dtstart": ["20180827T111500", {
+        "tzid": "America/New_York"
+      }],
+      "dtend": ["20180827T120500", {
+        "tzid": "America/New_York"
+      }],
+      "rrule": {
+        "freq": "WEEKLY",
+        "until": "20181206T045959Z",
+        "byday": "MO",
+        "we": null
+      },
+      "exdate": [
+        ["20181121T111500"], {
+          "tzid": "America/New_York"
+        }
+      ]
+    }, {
+      "dtstart": ["20180828T153000", {
+        "tzid": "America/New_York"
+      }],
+      "dtend": ["20180828T162000", {
+        "tzid": "America/New_York"
+      }],
+      "rrule": {
+        "freq": "WEEKLY",
+        "until": "20181207T045959Z",
+        "byday": "TU",
+        "th": null
+      },
+      "exdate": [
+        ["20181122T153000"], {
+          "tzid": "America/New_York"
+        }
+      ]
+    }, {
+      "dtstart": ["20180831T111500", {
+        "tzid": "America/Detroit"
+      }],
+      "dtend": ["20180831T120500", {
+        "tzid": "America/Detroit"
+      }],
+      "rrule": {
+        "freq": "WEEKLY",
+        "wkst": "SU",
+        "until": "20181223T000000Z",
+        "interval": "1",
+        "byday": "FR"
+      },
+      "exdate": [
+        ["20181221T111500"], {
+          "tzid": "America/Detroit"
+        }
+      ],
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": ["20180827T101000", {
+        "tzid": "America/Detroit"
+      }],
+      "dtend": ["20180827T110000", {
+        "tzid": "America/Detroit"
+      }],
+      "rrule": {
+        "freq": "WEEKLY",
+        "wkst": "SU",
+        "until": "20181206T045959Z",
+        "byday": "MO",
+        "we": null
+      },
+      "exdate": [
+        ["20181121T101000"], {
+          "tzid": "America/Detroit"
+        }
+      ],
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": ["20181014", {
+        "value": "DATE"
+      }],
+      "dtend": ["20181015", {
+        "value": "DATE"
+      }],
+      "dtstamp": "20181231T220626Z",
+      "uid": "3k3hua1frvtnjr99jm5sglsa8q@google.com",
+      "created": "20180904T142441Z",
+      "description": "",
+      "last-modified": "20180904T142441Z",
+      "location": "Annesdale Mansion\\, 1325 Lamar Ave\\, Memphis\\, TN 38104\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Jordan's Wedding",
+      "transp": "TRANSPARENT"
+    }, {
+      "dtstart": "20180916T120000Z",
+      "dtend": "20180916T180000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "0btenbab77fs50p7choebooj32@google.com",
+      "created": "20180830T201754Z",
+      "description": "",
+      "last-modified": "20180830T201806Z",
+      "location": "Four Arrows\\, 14 Sherman Place\\, Storrs\\, CT 06269\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "STEM Scholar Retreat",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }, {
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT12H0M0S"
+      }]
+    }, {
+      "dtstart": "20180906T220000Z",
+      "dtend": "20180906T230000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "47213ck1gpn6v3gr4pudtcp8ps@google.com",
+      "created": "20180830T194253Z",
+      "description": "",
+      "last-modified": "20180830T194253Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Engineering Involvement Fair",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": ["20180828T140000", {
+        "tzid": "America/New_York"
+      }],
+      "dtend": ["20180828T151500", {
+        "tzid": "America/New_York"
+      }],
+      "rrule": {
+        "freq": "WEEKLY",
+        "until": "20181207T045959Z",
+        "byday": "TU",
+        "th": null
+      },
+      "exdate": [
+        ["20181122T140000"], {
+          "tzid": "America/New_York"
+        }
+      ]
+    }, {
+      "dtstart": ["20180829T122000", {
+        "tzid": "America/New_York"
+      }],
+      "dtend": ["20180829T131000", {
+        "tzid": "America/New_York"
+      }],
+      "rrule": {
+        "freq": "WEEKLY",
+        "until": "20181206T045959Z",
+        "byday": "WE"
+      },
+      "exdate": [
+        ["20181121T122000"], {
+          "tzid": "America/New_York"
+        }
+      ]
+    }, {
+      "dtstart": ["20180827T080000", {
+        "tzid": "America/Detroit"
+      }],
+      "dtend": ["20180827T085000", {
+        "tzid": "America/Detroit"
+      }],
+      "rrule": {
+        "freq": "WEEKLY",
+        "wkst": "SU",
+        "until": "20181206T045959Z",
+        "byday": "MO",
+        "we": null
+      },
+      "exdate": [
+        ["20181121T080000"], {
+          "tzid": "America/Detroit"
+        }
+      ],
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": ["20180828T123000", {
+        "tzid": "America/Detroit"
+      }],
+      "dtend": ["20180828T134500", {
+        "tzid": "America/Detroit"
+      }],
+      "rrule": {
+        "freq": "WEEKLY",
+        "wkst": "SU",
+        "until": "20181207T045959Z",
+        "byday": "TU",
+        "th": null
+      },
+      "exdate": [
+        ["20181122T123000"], {
+          "tzid": "America/Detroit"
+        }
+      ],
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": ["20180828T110000", {
+        "tzid": "America/New_York"
+      }],
+      "dtend": ["20180828T115000", {
+        "tzid": "America/New_York"
+      }],
+      "rrule": {
+        "freq": "WEEKLY",
+        "until": "20181207T045959Z",
+        "byday": "TU",
+        "th": null
+      },
+      "exdate": [
+        ["20181122T110000"], {
+          "tzid": "America/New_York"
+        }
+      ]
+    }, {
+      "dtstart": "20180819T130000Z",
+      "dtend": "20180819T200000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6grj0db168rm4b9g65h3gb9kc4q6ab9p6ks6abb1cdim2cpi75i62c9n70@google.com",
+      "created": "20180812T223603Z",
+      "description": "",
+      "last-modified": "20180812T223603Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180818T130000Z",
+      "dtend": "20180818T233000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "68r6cp9k6lj34b9pccsmcb9kcor64b9p6ti3cb9hckqj8c326krj6p9pco@google.com",
+      "created": "20180812T213825Z",
+      "description": "",
+      "last-modified": "20180812T213825Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180817T120000Z",
+      "dtend": "20180817T233000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "60sjaeb5chj30bb6cgsmab9k70pm6b9p64o30b9lc4rjgc1l6pi6ad1j60@google.com",
+      "created": "20180812T213824Z",
+      "description": "",
+      "last-modified": "20180812T213824Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180812T120000Z",
+      "dtend": "20180812T200000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "c8p38c1p6di62b9p74r38b9k64sj2bb2c5i3abb174q36e9h60s3ior26k@google.com",
+      "created": "20180812T213824Z",
+      "description": "",
+      "last-modified": "20180812T213824Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180815T103000Z",
+      "dtend": "20180815T193000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "ckqjic356oomcb9m6oo66b9k74om4b9o6cs3abb6ckrm4opi68qjec1k60@google.com",
+      "created": "20180812T213741Z",
+      "description": "",
+      "last-modified": "20180812T213741Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180814T103000Z",
+      "dtend": "20180814T193000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "74oj8dr4cgrjcb9i6lj3ab9kcli3gb9o65i3cb9m6dgmac1jc8oj6or2cc@google.com",
+      "created": "20180812T213741Z",
+      "description": "",
+      "last-modified": "20180812T213741Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180808T103000Z",
+      "dtend": "20180808T193000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6dgm4d1o6pgmcbb169j3gb9kcco3ibb16dgm2bb26lj3adb36ti6acr270@google.com",
+      "created": "20180812T213740Z",
+      "description": "",
+      "last-modified": "20180812T213740Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180807T103000Z",
+      "dtend": "20180807T193000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6sr32phg74q3ebb16cojab9kc4r3ibb1c9hj2b9m60o3idhn6cojee9m6c@google.com",
+      "created": "20180812T213739Z",
+      "description": "",
+      "last-modified": "20180812T213740Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180809T200000Z",
+      "dtend": "20180811T150000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "74p36dhj60p6ab9o6gr3ab9kc9im4bb16tgm6b9i6pgj2cphclj3gcr568@google.com",
+      "created": "20180802T224331Z",
+      "description": "",
+      "last-modified": "20180802T224331Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Lad's Lakehouse",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180803T130000Z",
+      "dtend": "20180804T000000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "cco62cpi69i62b9i6ooj8b9k6kom2bb168o34bb56tim2ohg6sojgcpoco@google.com",
+      "created": "20180731T013049Z",
+      "description": "",
+      "last-modified": "20180731T013049Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180801T103000Z",
+      "dtend": "20180801T193000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "cgr30eb6c8q34b9m74smcb9k74o30bb1cosj4b9lc9h3idj26sq3ecr56s@google.com",
+      "created": "20180730T224523Z",
+      "description": "",
+      "last-modified": "20180730T224523Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180731T103000Z",
+      "dtend": "20180731T193000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "c9hm8ohg71i64b9gc5gm6b9kccqm8bb1clh3ebb66oo64d32chhjadr26o@google.com",
+      "created": "20180730T224523Z",
+      "description": "",
+      "last-modified": "20180730T224523Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180804T130000Z",
+      "dtend": "20180805T000000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "c4o6cd3465i66b9p6di3eb9k6tgj6bb160p3cbb461i34opo6tgm8dpgco@google.com",
+      "created": "20180730T224446Z",
+      "description": "",
+      "last-modified": "20180730T224446Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180721T130000Z",
+      "dtend": "20180722T000000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "clj34e32cgqj2b9m6kq3ab9kckqj6b9oclh3eb9m6lhm4ob565h38ob670@google.com",
+      "created": "20180718T010555Z",
+      "description": "",
+      "last-modified": "20180718T010555Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180720T130000Z",
+      "dtend": "20180721T000000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6kp32dhl74r30bb6c9im4b9kccrjebb26co32b9l6oq62e1icop3gc31cg@google.com",
+      "created": "20180718T010518Z",
+      "description": "",
+      "last-modified": "20180718T010518Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180722T113000Z",
+      "dtend": "20180722T203000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "65i36opjcpijgbb16kpj4b9k71i3abb168s32b9g6gr64pb6c8qj8opj6o@google.com",
+      "created": "20180718T010517Z",
+      "description": "",
+      "last-modified": "20180718T010517Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180718T103000Z",
+      "dtend": "20180718T193000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6lgm8d3669i6ab9jccq3eb9kchh3abb1c4o36bb271i68ob16tj3geb26c@google.com",
+      "created": "20180718T010435Z",
+      "description": "",
+      "last-modified": "20180718T010436Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180715T113000Z",
+      "dtend": "20180715T203000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "75gjgob1cgrjibb471gjab9k68qm6bb26oq3gb9o6phj2oj16krj6ohn6g@google.com",
+      "created": "20180718T010358Z",
+      "description": "",
+      "last-modified": "20180718T010358Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180714T110000Z",
+      "dtend": "20180714T200000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6dim2db474qjab9m60qj4b9k6crjib9ocpi68b9p71j6cpj271gjap9j6g@google.com",
+      "created": "20180718T010242Z",
+      "description": "",
+      "last-modified": "20180718T010242Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180711T110000Z",
+      "dtend": "20180711T200000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "ccqj8phjckr3gbb46sqjib9k65j68bb268p68b9jchi34dho64qj6ohm64@google.com",
+      "created": "20180718T010230Z",
+      "description": "",
+      "last-modified": "20180718T010230Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180703T130000Z",
+      "dtend": "20180703T233000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "60r3achnc9hm2b9lc4s3cb9k6sqj8b9ochh3cbb46pim2c1jchhj2dpk6g@google.com",
+      "created": "20180701T215109Z",
+      "description": "",
+      "last-modified": "20180701T215109Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180626T130000Z",
+      "dtend": "20180626T233000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6dj34d1g71i6ab9o6him6b9kchhjabb1chj38b9l64ojgo9icko6ad9m6s@google.com",
+      "created": "20180701T170728Z",
+      "description": "",
+      "last-modified": "20180701T170728Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180704T113000Z",
+      "dtend": "20180704T203000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "60s68ohj6gq3ebb26kq3ab9kc9i68b9pckoj4bb26di3ioj3chim6phlck@google.com",
+      "created": "20180701T170727Z",
+      "description": "",
+      "last-modified": "20180701T170727Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180706T110000Z",
+      "dtend": "20180706T200000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "cop6adj575ij8b9p6tijgb9k6sqjab9o65hjab9j6soj6cpo6lim8ohgc4@google.com",
+      "created": "20180701T170634Z",
+      "description": "",
+      "last-modified": "20180701T170634Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180705T110000Z",
+      "dtend": "20180705T200000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "71j66ohk61h6ab9p64qjib9kcdh32bb26ph3ibb1c4o32dpo6gsj0d1mco@google.com",
+      "created": "20180701T170633Z",
+      "description": "",
+      "last-modified": "20180701T170633Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180701T000000Z",
+      "dtend": "20180701T040000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "71h38or471imcb9hchi34b9kc4ojgbb26orm4bb5cosm6ob564qjiob470@google.com",
+      "created": "20180626T164834Z",
+      "description": "",
+      "last-modified": "20180626T164834Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Babysitting for Danielle",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180627T113000Z",
+      "dtend": "20180627T203000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "coq3goj26gpjgb9k70ojab9kc5ijcbb26or3ebb56di3idpl6srjachn60@google.com",
+      "created": "20180625T143626Z",
+      "description": "",
+      "last-modified": "20180625T143626Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180701T120000Z",
+      "dtend": "20180701T203000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "60pjecb575ijeb9g70q34b9k6hgj0bb260p3gbb260q6cohj6dh6cp9l6s@google.com",
+      "created": "20180625T143536Z",
+      "description": "",
+      "last-modified": "20180625T143536Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180630T130000Z",
+      "dtend": "20180630T233000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6gp6cob260r3cbb674oj8b9k64s3ab9o68qm8b9i6gp3aopn60pj2e9g6s@google.com",
+      "created": "20180625T143525Z",
+      "description": "",
+      "last-modified": "20180625T143525Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180624T120000Z",
+      "dtend": "20180624T203000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6oojgo9gc5i6ab9p6thm8b9kc9h38bb160ojgb9o6gq38opi64oj6d366c@google.com",
+      "created": "20180617T185303Z",
+      "description": "",
+      "last-modified": "20180617T185402Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "1",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180623T103000Z",
+      "dtend": "20180623T183000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6gojcdplckp6abb564sm8b9k70smcbb170pm2b9kcdgm4ohl61i68opg6k@google.com",
+      "created": "20180617T185302Z",
+      "description": "",
+      "last-modified": "20180617T185302Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180609T180000Z",
+      "dtend": "20180610T000000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "ccq30db56ssjib9h74sj8b9kc4qjcb9p70pjabb36oq6aob16kp64phk6k@google.com",
+      "created": "20180313T041646Z",
+      "description": "",
+      "last-modified": "20180609T205100Z",
+      "location": "",
+      "sequence": "1",
+      "status": "CONFIRMED",
+      "summary": "Monique's Party",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }, {
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P7D"
+      }]
+    }, {
+      "dtstart": "20180623T190000Z",
+      "dtend": "20180623T220000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6gp30oj66gpj0b9k6com4b9k71i3gbb274p68b9pccq3icj4cgqm4eb36s@google.com",
+      "created": "20180609T204843Z",
+      "description": "",
+      "last-modified": "20180609T204843Z",
+      "location": "45 Beecher Ave\\, Shelton\\, CT 06484\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Braden's Graduation Party",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180603T223000Z",
+      "dtend": "20180604T030000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6os3achi6srj6b9mchgjgb9k6ksjgbb260pjgb9lcdh6ad9o60om4dhm6c@google.com",
+      "created": "20180609T202159Z",
+      "description": "",
+      "last-modified": "20180609T202251Z",
+      "location": "",
+      "sequence": "1",
+      "status": "CONFIRMED",
+      "summary": "Logic Concert",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180610T123000Z",
+      "dtend": "20180610T210000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "64s34p9k6pij8b9g6hi32b9k68qm8b9p6ss32b9k6di3adb664sjac326k@google.com",
+      "created": "20180609T202158Z",
+      "description": "",
+      "last-modified": "20180609T202158Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180609T103000Z",
+      "dtend": "20180609T183000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6krj8pj6coqj6b9i60omab9k74pjib9ockrjab9icgojgo9o6ssj0dr1c8@google.com",
+      "created": "20180609T202112Z",
+      "description": "",
+      "last-modified": "20180609T202112Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180603T120000Z",
+      "dtend": "20180603T210000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "65h68c1nckpm8b9pcooj2b9k75im8bb1cgo62bb36krjicr16srj2eb2co@google.com",
+      "created": "20180602T012226Z",
+      "description": "",
+      "last-modified": "20180603T031327Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "1",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180602T230000Z",
+      "dtend": "20180603T020000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "74rm4o9n75i3cb9n6dgm8b9k70q66b9o64sm8b9gcpimadj26go3iob560@google.com",
+      "created": "20180602T011934Z",
+      "description": "",
+      "last-modified": "20180602T170715Z",
+      "location": "Trumbull Marriott Shelton\\, 180 Hawley Ln\\, Trumbull\\, CT 06611\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Warde Prom",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180602T213000Z",
+      "dtend": "20180602T223000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "74q36c9o68r62b9gccs62b9k68sm2bb1cgo3cb9n74sjac9h6os3epj5c4@google.com",
+      "created": "20180602T011804Z",
+      "description": "",
+      "last-modified": "20180602T170714Z",
+      "location": "354 Towne House Rd\\, Fairfield\\, CT 06824\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Pictures",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180528T120000Z",
+      "dtend": "20180528T200000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "60r30oho6thj4b9m69gjab9k70r3ebb165j6cb9g6pgjee9g75i38c9pco@google.com",
+      "created": "20180602T012227Z",
+      "description": "",
+      "last-modified": "20180602T012227Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180602T103000Z",
+      "dtend": "20180602T190000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "c5h62cj1c8s66bb6c8r38b9k6crm2b9pcgpm6b9ncgq62e3274s3aopl70@google.com",
+      "created": "20180602T012225Z",
+      "description": "",
+      "last-modified": "20180602T012226Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180622T183000Z",
+      "dtend": "20180622T210000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "68o38d9o6som2b9o6ooj4b9kckpm4b9ocksjebb675hm2ohlc9h32d1k70@google.com",
+      "created": "20180601T145746Z",
+      "description": "",
+      "last-modified": "20180601T145746Z",
+      "location": "John F. Kennedy Stadium\\, Bridgeport\\, CT 06606\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Graduation",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180621T130000Z",
+      "dtend": "20180621T140000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6kqjie9ic4sjgb9mc4q38b9kcco6abb16kr68b9k6ko38o9lckqm4e1p6k@google.com",
+      "created": "20180601T145600Z",
+      "description": "",
+      "last-modified": "20180601T145633Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Graduation practice",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180620T130000Z",
+      "dtend": "20180620T140000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "64rjgopgcgp6cb9h68s3eb9kcksm6b9o70pjab9mcgr3gphochhm2dr6cc@google.com",
+      "created": "20180601T145559Z",
+      "description": "",
+      "last-modified": "20180601T145600Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Graduation practice",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180619T130000Z",
+      "dtend": "20180619T140000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "ccr3cdplckojgb9mc4rmab9k6ko3ib9p6lh3eb9k70p64p1ic9h62dhg74@google.com",
+      "created": "20180601T145559Z",
+      "description": "",
+      "last-modified": "20180601T145559Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Graduation practice",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180610T000000Z",
+      "dtend": "20180610T030000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "cphjac1gcgs68bb4cgs3ab9k6coj6b9o60p38bb374q3achp6hi62cj574@google.com",
+      "created": "20180527T025728Z",
+      "description": "",
+      "last-modified": "20180527T025728Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "The Machine Concert",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180531T193000Z",
+      "dtend": "20180601T020000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "68r36d9jc4r3cb9h6gpm8b9kcpj34bb2coqmcb9g60s3ip9n75i62p34c4@google.com",
+      "created": "20180527T025157Z",
+      "description": "",
+      "last-modified": "20180527T025157Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT1H0M0S"
+      }]
+    }, {
+      "dtstart": "20180527T000000Z",
+      "dtend": "20180527T040000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "cphmcpj16os3cbb26crm6b9kc8qj0b9oc5i3cbb5clj38p1ocpij0opj6k@google.com",
+      "created": "20180525T070320Z",
+      "description": "",
+      "last-modified": "20180525T070320Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Babysitting for Danielle",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180527T130000Z",
+      "dtend": "20180527T210000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "70r30p9lc8r64b9ocopjgb9k70smabb1cosj4b9g6oqjiopo68s38e1m6c@google.com",
+      "created": "20180520T214018Z",
+      "description": "",
+      "last-modified": "20180520T214018Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180526T120000Z",
+      "dtend": "20180527T000000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6gr66c1m70p32bb2c8qj4b9k64pj6bb160oj6b9kccq6cd9mc9gjacr1ck@google.com",
+      "created": "20180520T214017Z",
+      "description": "",
+      "last-modified": "20180520T214018Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180628T120000Z",
+      "dtend": "20180629T201500Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "c4sm6phgc4r3ib9lcpj30b9kchh36b9pckoj6b9o64pjcdr575i34p1p6g@google.com",
+      "created": "20180518T141854Z",
+      "description": "",
+      "last-modified": "20180518T142031Z",
+      "location": "",
+      "sequence": "1",
+      "status": "CONFIRMED",
+      "summary": "UConn Orientation",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }, {
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P1D"
+      }, {
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P7D"
+      }]
+    }, {
+      "dtstart": ["20180824", {
+        "value": "DATE"
+      }],
+      "dtend": ["20180825", {
+        "value": "DATE"
+      }],
+      "dtstamp": "20181231T220626Z",
+      "uid": "c4p68ohmcos64b9icosmab9kcgom4bb174q6cb9h60pm2pj46ph3ccb36k@google.com",
+      "created": "20180518T140443Z",
+      "description": "",
+      "last-modified": "20180518T141854Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Move-in Day",
+      "transp": "TRANSPARENT"
+    }, {
+      "dtstart": "20180530T130000Z",
+      "dtend": "20180530T180000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "70sj2dhjc4r32bb270p62b9k6tgm2bb26oqjgbb3cph6ccb468qmcchj6c@google.com",
+      "created": "20180518T124219Z",
+      "description": "",
+      "last-modified": "20180518T124219Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Senior Trip",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180525T200000Z",
+      "dtend": "20180526T030000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6oo66d3360pj2b9j64q38b9k71hj0bb165gm4b9p6tij8dhic4qm2oj160@google.com",
+      "created": "20180518T124121Z",
+      "description": "",
+      "last-modified": "20180518T124122Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT1H0M0S"
+      }]
+    }, {
+      "dtstart": "20180524T220000Z",
+      "dtend": "20180525T023000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "60q32dhl68s62b9ncooj2b9kc5h36bb164pj0bb26spjadj465gjadb4cc@google.com",
+      "created": "20180518T124121Z",
+      "description": "",
+      "last-modified": "20180518T124121Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT1H0M0S"
+      }]
+    }, {
+      "dtstart": "20180523T220000Z",
+      "dtend": "20180524T023000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "ckq62phn6gqj0b9mcdgm6b9kcor66b9o6dhjab9l6cpjgchjcks3ccb2co@google.com",
+      "created": "20180518T124120Z",
+      "description": "",
+      "last-modified": "20180518T124120Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT1H0M0S"
+      }]
+    }, {
+      "dtstart": "20180522T210000Z",
+      "dtend": "20180523T023000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "cpgj2dr36osj4bb66go3gb9kclj3ib9p6gqj2b9l74qjgdj264sj8d316k@google.com",
+      "created": "20180518T124120Z",
+      "description": "",
+      "last-modified": "20180518T124120Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT1H0M0S"
+      }]
+    }, {
+      "dtstart": "20180517T120000Z",
+      "dtend": "20180518T000000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "c9j3idj4chim8bb56so6ab9kcopm6bb2c9gjabb4cko68e1jcli38cr668@google.com",
+      "created": "20180518T123956Z",
+      "description": "",
+      "last-modified": "20180518T123956Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Six Flags",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180518T200000Z",
+      "dtend": "20180519T030000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "c9j38dhkcko32b9gcksjeb9k69i34b9ochh3ebb1coo66e9oc8s38p9p70@google.com",
+      "created": "20180515T162746Z",
+      "description": "",
+      "last-modified": "20180515T162746Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT1H0M0S"
+      }]
+    }, {
+      "dtstart": "20180516T220000Z",
+      "dtend": "20180517T023000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "75gm4eb26pj30b9mchhmcb9k6hij0b9pcdij2b9ncop38p3264qm4pj26k@google.com",
+      "created": "20180515T162648Z",
+      "description": "",
+      "last-modified": "20180515T162648Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT1H0M0S"
+      }]
+    }, {
+      "dtstart": "20180515T210000Z",
+      "dtend": "20180516T023000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "75gj2cpm6oo6cbb6c8sm4b9k6dgjgbb2cdi30b9nc8smad1i61i32dhl68@google.com",
+      "created": "20180515T162647Z",
+      "description": "",
+      "last-modified": "20180515T162647Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT1H0M0S"
+      }]
+    }, {
+      "dtstart": "20180714T210000Z",
+      "dtend": "20180714T220000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "ccrj6dpl70r3gbb26soj0b9k6spm4b9ocdj6abb16li3cpj470r62o9ick@google.com",
+      "created": "20180514T185650Z",
+      "description": "",
+      "last-modified": "20180514T185650Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Anastasia's Quinceanera",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180520T130000Z",
+      "dtend": "20180520T210000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "60oj6e1nckpj0b9gckr62b9k70p32b9p64pm6bb56pi62c9l61h34pj6ck@google.com",
+      "created": "20180511T052500Z",
+      "description": "",
+      "last-modified": "20180513T220726Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "1",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180630T043000Z",
+      "dtend": "20180630T053000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6dj32c1g6gq3gb9jcpim4b9k65i6cb9o69h3gbb36hj6ad3171gm8p1oc4@google.com",
+      "created": "20180511T041300Z",
+      "description": "",
+      "last-modified": "20180511T234155Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Mark's grad party",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180519T130000Z",
+      "dtend": "20180520T000000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "cph6cp1gcphm2b9n60r3gb9k70q32b9p6cqm8bb2cpim2opn61gm4d1j6o@google.com",
+      "created": "20180511T052459Z",
+      "description": "",
+      "last-modified": "20180511T052459Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180511T220000Z",
+      "dtend": "20180512T000000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "c4rj0dpnchi36b9kc8pj2b9k75j3ibb26crjgb9n6dimap9lc8sm4dr3cg@google.com",
+      "created": "20180509T124020Z",
+      "description": "",
+      "last-modified": "20180509T124020Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Corporate cleanup and Mario Kart Tournament",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180513T113000Z",
+      "dtend": "20180513T210000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "cphm2cb16cqjib9i64pj2b9k64r64bb174o38bb4ccoj0cj465im2e9i6k@google.com",
+      "created": "20180502T204634Z",
+      "description": "",
+      "last-modified": "20180507T131006Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "1",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180509T220000Z",
+      "dtend": "20180510T023000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "copjapb16dhj8b9ocphj6b9k69j68bb16gpm6b9l6so62c3370q38chk70@google.com",
+      "created": "20180504T030139Z",
+      "description": "",
+      "last-modified": "20180504T030139Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT1H0M0S"
+      }]
+    }, {
+      "dtstart": "20180508T200000Z",
+      "dtend": "20180509T023000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6lh6cp1i75j64b9kc5h62b9k6gqm8bb264r3eb9pclgm4e9g6kr6cd9oc8@google.com",
+      "created": "20180504T030138Z",
+      "description": "",
+      "last-modified": "20180504T030138Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT1H0M0S"
+      }]
+    }, {
+      "dtstart": "20180512T130000Z",
+      "dtend": "20180513T000000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "cgpmcohgc9j36b9ocpj64b9k6hij8bb269i34b9p61gm4d9n64smcoj164@google.com",
+      "created": "20180502T204711Z",
+      "description": "",
+      "last-modified": "20180502T204711Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180506T130000Z",
+      "dtend": "20180506T210000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "c5hj8d9p6grj0b9o69gj0b9kclgjcbb26li3eb9pcdhj6opi6so3ccb56c@google.com",
+      "created": "20180501T121941Z",
+      "description": "",
+      "last-modified": "20180502T204634Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180505T103000Z",
+      "dtend": "20180505T200000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "ckp3ip1p6ph36bb1c9j38b9k6coj0b9ocli62bb570sj8ob375h3cohn74@google.com",
+      "created": "20180501T121940Z",
+      "description": "",
+      "last-modified": "20180501T121940Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180504T200000Z",
+      "dtend": "20180505T030000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "cks3epho61im4bb568q34b9kckr3eb9o64qmab9l6lj3ae9jc5gjcopk74@google.com",
+      "created": "20180501T121809Z",
+      "description": "",
+      "last-modified": "20180501T121809Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT1H0M0S"
+      }]
+    }, {
+      "dtstart": "20180503T200000Z",
+      "dtend": "20180504T020000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "68ojec34chj3ab9nc4rjcb9kcdhm2b9p6dh62b9l64qm4e3470rj0p9nck@google.com",
+      "created": "20180501T121807Z",
+      "description": "",
+      "last-modified": "20180501T121808Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT1H0M0S"
+      }]
+    }, {
+      "dtstart": "20180502T220000Z",
+      "dtend": "20180503T023000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6phmcchi74oj6b9mcgq3gb9k64s32bb164rj0bb260o6ceb16com6c36co@google.com",
+      "created": "20180501T121807Z",
+      "description": "",
+      "last-modified": "20180501T121807Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT1H0M0S"
+      }]
+    }, {
+      "dtstart": "20180501T200000Z",
+      "dtend": "20180502T023000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "ccq34p3674ojib9jc9hmcb9kcgrj8bb26so36b9kcoqm6d9nccp3gp1kck@google.com",
+      "created": "20180501T121806Z",
+      "description": "",
+      "last-modified": "20180501T121806Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT1H0M0S"
+      }]
+    }, {
+      "dtstart": "20180505T203000Z",
+      "dtend": "20180506T000000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6lhmcphm6ks3ib9pcgrjib9kchhjib9o6cs6ab9n6kpm2d1l75hmccpp64@google.com",
+      "created": "20180426T032132Z",
+      "description": "",
+      "last-modified": "20180426T193147Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Catering Event - Cupcake Wars Party",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20180429T230000Z",
+      "dtend": "20180430T010000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6ph68c1nccr3gb9k6osj0b9k71ijabb1c4p3ib9g75h62p356thj4oph6k@google.com",
+      "created": "20180426T032136Z",
+      "description": "",
+      "last-modified": "20180426T032136Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Tutoring",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180429T120000Z",
+      "dtend": "20180429T210000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "68rjad1gc8rm8b9o74qj6b9kc9gm8b9p71hjgb9nc9j62pj36kqm6ob264@google.com",
+      "created": "20180422T231116Z",
+      "description": "",
+      "last-modified": "20180422T231214Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180428T130000Z",
+      "dtend": "20180428T220000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "68qjgchn70r3ab9hclhjeb9k69h38b9ockqj4bb3cdgm4d1n6cqm4p9nc8@google.com",
+      "created": "20180422T231116Z",
+      "description": "",
+      "last-modified": "20180422T231116Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180428T230000Z",
+      "dtend": "20180429T030000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6srjechn64pm8b9jc4pm4b9k70s68bb1chij2bb564sjccb460p62e9i68@google.com",
+      "created": "20180420T024548Z",
+      "description": "",
+      "last-modified": "20180420T024548Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Babysitting for Danielle",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }, {
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P7D"
+      }]
+    }, {
+      "dtstart": "20180426T200000Z",
+      "dtend": "20180427T020000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "75j62p9h61j68bb1cdh3gb9kckom2b9pc5ij8bb3c8oj0c1n68q32ohi64@google.com",
+      "created": "20180420T024336Z",
+      "description": "",
+      "last-modified": "20180420T024336Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT1H0M0S"
+      }]
+    }, {
+      "dtstart": "20180424T200000Z",
+      "dtend": "20180425T023000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "68o64d1ic4qmabb36crj0b9kcgpjcb9p6sojgb9lcor68o9l65j3aohmck@google.com",
+      "created": "20180420T024247Z",
+      "description": "",
+      "last-modified": "20180420T024247Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT1H0M0S"
+      }]
+    }, {
+      "dtstart": "20180425T220000Z",
+      "dtend": "20180426T023000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "c4r30phk6dijib9pcgo36b9kc9hj0bb2c9gj0b9h60q3adr3coo3ie9n70@google.com",
+      "created": "20180420T024246Z",
+      "description": "",
+      "last-modified": "20180420T024246Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT1H0M0S"
+      }]
+    }, {
+      "dtstart": "20180418T220000Z",
+      "dtend": "20180419T023000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "c4qmccpiclhjcb9pcph36b9k6tj3ebb1chgj8bb6ckqmad9h60s36c9oc4@google.com",
+      "created": "20180412T212801Z",
+      "description": "",
+      "last-modified": "20180420T024245Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT1H0M0S"
+      }]
+    }, {
+      "dtstart": ["20180407", {
+        "value": "DATE"
+      }],
+      "dtend": ["20180415", {
+        "value": "DATE"
+      }],
+      "dtstamp": "20181231T220626Z",
+      "uid": "cor30o9ichim2bb66sp3ib9k6go64b9pclh3gbb46ph38e9ncgqjedhp6c@google.com",
+      "created": "20180406T095023Z",
+      "description": "Twice a day. $100",
+      "last-modified": "20180415T210347Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Feeding cat for Marachi",
+      "transp": "TRANSPARENT"
+    }, {
+      "dtstart": ["20180407", {
+        "value": "DATE"
+      }],
+      "dtend": ["20180415", {
+        "value": "DATE"
+      }],
+      "dtstamp": "20181231T220626Z",
+      "uid": "71j3io9n60pmab9k64q62b9k71h3cbb174r3ib9p6dijecpkcdgj6d326s@google.com",
+      "created": "20180403T203533Z",
+      "description": "3ish times a day. $200",
+      "last-modified": "20180415T210307Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Dog walking for McMahons",
+      "transp": "TRANSPARENT"
+    }, {
+      "dtstart": ["20180405", {
+        "value": "DATE"
+      }],
+      "dtend": ["20180415", {
+        "value": "DATE"
+      }],
+      "dtstamp": "20181231T220626Z",
+      "uid": "70o3icpi70smcb9kccsjab9k75ij8bb2cgrj8b9h60q38dhlcoqm4dhj68@google.com",
+      "created": "20180306T153551Z",
+      "description": "3 dogs\\, fish\\, bearded dragon. $1500",
+      "last-modified": "20180415T210306Z",
+      "location": "30 Catbrier Rd",
+      "sequence": "1",
+      "status": "CONFIRMED",
+      "summary": "Housesitting",
+      "transp": "TRANSPARENT"
+    }, {
+      "dtstart": "20180421T130000Z",
+      "dtend": "20180421T220000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "75j68dr5cgs66bb6c9ijcb9k61ijebb26hijgbb660om8c1pclhj6o9hco@google.com",
+      "created": "20180415T204420Z",
+      "description": "",
+      "last-modified": "20180415T204420Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180422T130000Z",
+      "dtend": "20180422T210000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6oq3gp9n6ti62bb46ph3cb9k75gj0bb274q68bb26oom4p1i6dhmaoj46k@google.com",
+      "created": "20180415T204419Z",
+      "description": "",
+      "last-modified": "20180415T204419Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180420T190000Z",
+      "dtend": "20180421T030000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "64om2e9o6dij8b9i74o66b9k6ko38b9o6or38b9i6lj6cdhkc8sm4or6cc@google.com",
+      "created": "20180412T212844Z",
+      "description": "",
+      "last-modified": "20180412T212938Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "1",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT1H0M0S"
+      }]
+    }, {
+      "dtstart": "20180419T190000Z",
+      "dtend": "20180420T023000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "c5i3ed9ic8p38b9jckqjab9kcksj6b9ochij8bb468omaohp64q62phh6g@google.com",
+      "created": "20180412T212843Z",
+      "description": "",
+      "last-modified": "20180412T212843Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT1H0M0S"
+      }]
+    }, {
+      "dtstart": "20180417T190000Z",
+      "dtend": "20180418T023000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "c8pm4cr570s3cb9p71ijeb9kclj3ib9occoj4bb3clhj8eb66di38dj160@google.com",
+      "created": "20180412T212638Z",
+      "description": "",
+      "last-modified": "20180412T212638Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT1H0M0S"
+      }]
+    }, {
+      "dtstart": "20180408T130000Z",
+      "dtend": "20180408T210000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6srj4ohkcgrjab9n69hj0b9kckq64b9ocpim4bb4copm4cr5ckr3coj5cg@google.com",
+      "created": "20180408T165051Z",
+      "description": "",
+      "last-modified": "20180408T165051Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180415T130000Z",
+      "dtend": "20180415T210000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "ccq38o9icgoj8b9jclh3gb9k6oq3abb165hm2b9i6cq3ae366co3ecpoc4@google.com",
+      "created": "20180408T164856Z",
+      "description": "",
+      "last-modified": "20180408T164856Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180413T103000Z",
+      "dtend": "20180413T193000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6osm4e9pckqm6b9j74p6cb9kchhjibb165i68b9m68s62c1l74ojacpj70@google.com",
+      "created": "20180408T164855Z",
+      "description": "",
+      "last-modified": "20180408T164855Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180411T130000Z",
+      "dtend": "20180411T220000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "74q34chmcgrm6b9p64r3gb9kc4ojibb16kpj6b9o6hgj8e1pc5i6cc3560@google.com",
+      "created": "20180408T164712Z",
+      "description": "",
+      "last-modified": "20180408T164712Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180410T120000Z",
+      "dtend": "20180410T220000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "c4s38dj5chgjab9n6hi6ab9kclij0bb2cop6ab9j64sm6p346hgj8dph6s@google.com",
+      "created": "20180408T164637Z",
+      "description": "",
+      "last-modified": "20180408T164638Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180404T220000Z",
+      "dtend": "20180405T023000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "74o6cdpjc8s68bb66lj64b9k65ij8b9p6krj2bb661j32ob4cdhmaohm6o@google.com",
+      "created": "20180330T234122Z",
+      "description": "",
+      "last-modified": "20180330T234122Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT1H0M0S"
+      }]
+    }, {
+      "dtstart": "20180401T220000Z",
+      "dtend": "20180401T230000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "74p6ce9i6soj6b9kc8r3cb9k6gq64bb2chij4b9g6hh38dpi6cr38d9o6o@google.com",
+      "created": "20180330T233946Z",
+      "description": "",
+      "last-modified": "20180330T233947Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Yons for info",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }, {
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT2H0M0S"
+      }]
+    }, {
+      "dtstart": "20180401T130000Z",
+      "dtend": "20180401T210000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "c8p38e1l6dhj4b9k6kqjib9kccrm6b9o65imabb56csm4p3170r68o9jck@google.com",
+      "created": "20180324T122844Z",
+      "description": "",
+      "last-modified": "20180324T122844Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P1D"
+      }]
+    }, {
+      "dtstart": "20180331T130000Z",
+      "dtend": "20180331T220000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "ccs34c9p6or62b9k74sj8b9k6lhm4bb2c4sjcbb169gjgo9g6orm2dppck@google.com",
+      "created": "20180324T122843Z",
+      "description": "",
+      "last-modified": "20180324T122843Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P1D"
+      }]
+    }, {
+      "dtstart": ["20180406", {
+        "value": "DATE"
+      }],
+      "dtend": ["20180407", {
+        "value": "DATE"
+      }],
+      "dtstamp": "20181231T220626Z",
+      "uid": "6dij8pj571i32b9p6tj34b9k60pj2b9oc5gmcb9icpi68or565j68ohn6s@google.com",
+      "created": "20180323T130922Z",
+      "description": "",
+      "last-modified": "20180323T131007Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "End of Q3",
+      "transp": "TRANSPARENT"
+    }, {
+      "dtstart": "20180330T200000Z",
+      "dtend": "20180331T030000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "cpi6ap1m71i34b9h6cqj0b9kc4p3ab9p6op34b9nc4r36phh64q36chg6s@google.com",
+      "created": "20180322T165854Z",
+      "description": "",
+      "last-modified": "20180322T165854Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, United States",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT1H0M0S"
+      }]
+    }, {
+      "dtstart": "20180329T200000Z",
+      "dtend": "20180330T023000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6dh3ichm65ijcb9hccrjib9kclijcb9p75h3cb9p61hjgeb46opj2ob36c@google.com",
+      "created": "20180322T165754Z",
+      "description": "",
+      "last-modified": "20180322T165754Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT1H0M0S"
+      }]
+    }, {
+      "dtstart": "20180328T220000Z",
+      "dtend": "20180329T023000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6kr38or5c9i3gb9i61hm2b9k6ssj6bb269i66b9m6gr62p9k70sm4or1ck@google.com",
+      "created": "20180322T165753Z",
+      "description": "",
+      "last-modified": "20180322T165753Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT1H0M0S"
+      }]
+    }, {
+      "dtstart": "20180323T181000Z",
+      "dtend": "20180323T190000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6lhjedpp6hgmab9ockpjgb9k60s3ebb16hhjibb46di3goph6tgmcp9mco@google.com",
+      "created": "20180320T030307Z",
+      "description": "",
+      "last-modified": "20180320T030307Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "NHS",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180323T200000Z",
+      "dtend": "20180324T023000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "c8q3idhkcpgj4bb56dj34b9k74rj0bb2ccpj2b9o74q30p9gclijecpm68@google.com",
+      "created": "20180317T072032Z",
+      "description": "",
+      "last-modified": "20180317T072032Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, United States",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT1H0M0S"
+      }]
+    }, {
+      "dtstart": "20180322T200000Z",
+      "dtend": "20180323T023000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "coo30dj360sjibb3ckpj8b9k61i64b9p6crjgb9h64sj2c9gcks3idb2co@google.com",
+      "created": "20180317T071922Z",
+      "description": "",
+      "last-modified": "20180317T071922Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT1H0M0S"
+      }]
+    }, {
+      "dtstart": "20180321T220000Z",
+      "dtend": "20180322T023000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6lh3adj161hjabb56ks3ib9k6co68bb16go66bb5c5gjic9k60pj2or670@google.com",
+      "created": "20180317T071922Z",
+      "description": "",
+      "last-modified": "20180317T071922Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT1H0M0S"
+      }]
+    }, {
+      "dtstart": "20180325T130000Z",
+      "dtend": "20180325T210000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6sr66dplcdim6b9k65hm4b9kclgjab9p6cp34b9n70pm6phj68p6ad1o6o@google.com",
+      "created": "20180316T151822Z",
+      "description": "",
+      "last-modified": "20180316T151824Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180324T130000Z",
+      "dtend": "20180324T220000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "64s3id1jc8qm6b9mchhmcb9k6th6abb16so66b9icgs6ap1h6dj66c1p6c@google.com",
+      "created": "20180316T151822Z",
+      "description": "",
+      "last-modified": "20180316T151822Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180318T113000Z",
+      "dtend": "20180318T190000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "61gm2dhockr32bb16ss66b9k6opj0b9p6or3cb9j6oq3aor36cp6ce356k@google.com",
+      "created": "20180311T174333Z",
+      "description": "",
+      "last-modified": "20180315T150144Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, United States",
+      "sequence": "1",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180317T130000Z",
+      "dtend": "20180317T220000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "68rjepj1ccqj2b9j6os32b9k6oq36bb260rj0b9ncopjgdj36go34ob1co@google.com",
+      "created": "20180311T174254Z",
+      "description": "",
+      "last-modified": "20180315T150137Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "1",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180316T200000Z",
+      "dtend": "20180317T023000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "64r3ge31c4rm4b9l6hhmcb9k6hh30b9p74rjeb9j74smccpncksj8c3460@google.com",
+      "created": "20180311T174055Z",
+      "description": "",
+      "last-modified": "20180315T150128Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "1",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180315T200000Z",
+      "dtend": "20180316T023000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6gsjichkc9imcb9icgs68b9k6gr34bb1ccrm2b9k74pjaoph6ti62c9h60@google.com",
+      "created": "20180311T174030Z",
+      "description": "",
+      "last-modified": "20180315T150110Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "1",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180314T195500Z",
+      "dtend": "20180314T214900Z",
+      "dtstamp": "20181231T220626Z",
+      "organizer": "mailto:unknownorganizer@calendar.google.com",
+      "uid": "7kukuqrfedlm2f9tu8pdr4f74js8i3m7nqu3h7ocskfl3sepb7mopv03k79dbgrf3jg0",
+      "attendee": "mailto:emannguitar@gmail.com",
+      "class": "PRIVATE",
+      "created": "20180226T030026Z",
+      "description": "To see detailed information for automatically created events like this one\\, use the official Google Calendar app. https://g.co/calendar\\n\\nThis event was created from an email you received in Gmail. https://mail.google.com/mail?extsrc=cal&plid=ACUX6DPn7dazDGYuqCFqKPl9iqZ_Vv6bOWBZ0tA\\n",
+      "last-modified": "20180314T215316Z",
+      "location": "Detroit DTW",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Flight to New York City (DL 582)",
+      "transp": "TRANSPARENT"
+    }, {
+      "dtstart": "20180314T164800Z",
+      "dtend": "20180314T184400Z",
+      "dtstamp": "20181231T220626Z",
+      "organizer": "mailto:unknownorganizer@calendar.google.com",
+      "uid": "7kukuqrfedlm2f9tsbh6qt4jtkien84vf4c7m0lfb5veg41nblpdj9aiaftm29rf2bcg",
+      "attendee": "mailto:emannguitar@gmail.com",
+      "class": "PRIVATE",
+      "created": "20180226T030026Z",
+      "description": "To see detailed information for automatically created events like this one\\, use the official Google Calendar app. https://g.co/calendar\\n\\nThis event was created from an email you received in Gmail. https://mail.google.com/mail?extsrc=cal&plid=ACUX6DPn7dazDGYuqCFqKPl9iqZ_Vv6bOWBZ0tA\\n",
+      "last-modified": "20180314T185447Z",
+      "location": "Memphis MEM",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Flight to Detroit (DL 678)",
+      "transp": "TRANSPARENT"
+    }, {
+      "dtstart": "20180311T140500Z",
+      "dtend": "20180311T161000Z",
+      "dtstamp": "20181231T220626Z",
+      "organizer": "mailto:unknownorganizer@calendar.google.com",
+      "uid": "7kukuqrfedlm2f9tbpl1u88538532g7q87itnpq4q00gp1ifeecnt6u63d07qaujjhgg",
+      "attendee": "mailto:emannguitar@gmail.com",
+      "class": "PRIVATE",
+      "created": "20180226T030026Z",
+      "description": "To see detailed information for automatically created events like this one\\, use the official Google Calendar app. https://g.co/calendar\\n\\nThis event was created from an email you received in Gmail. https://mail.google.com/mail?extsrc=cal&plid=ACUX6DPn7dazDGYuqCFqKPl9iqZ_Vv6bOWBZ0tA\\n",
+      "last-modified": "20180313T164845Z",
+      "location": "Detroit DTW",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Flight to Memphis (DL 678)",
+      "transp": "TRANSPARENT"
+    }, {
+      "dtstart": ["20180711", {
+        "value": "DATE"
+      }],
+      "dtend": ["20180723", {
+        "value": "DATE"
+      }],
+      "dtstamp": "20181231T220626Z",
+      "uid": "chijgdhp61gjcb9l68qjeb9k6ti66b9ocorjcb9k70r62c1n6gr3aohh6c@google.com",
+      "created": "20180313T042610Z",
+      "description": "",
+      "last-modified": "20180313T042610Z",
+      "location": "30 Catbrier Rd\\, Weston\\, CT 06883\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Housesitting",
+      "transp": "TRANSPARENT"
+    }, {
+      "dtstart": "20180311T111000Z",
+      "dtend": "20180311T132000Z",
+      "dtstamp": "20181231T220626Z",
+      "organizer": "mailto:unknownorganizer@calendar.google.com",
+      "uid": "7kukuqrfedlm2f9tjgr1b7g3b8njnnubrgma12ndbd31jndhjkj0b0gebl789mb22eh0",
+      "attendee": "mailto:emannguitar@gmail.com",
+      "class": "PRIVATE",
+      "created": "20180226T030026Z",
+      "description": "To see detailed information for automatically created events like this one\\, use the official Google Calendar app. https://g.co/calendar\\n\\nThis event was created from an email you received in Gmail. https://mail.google.com/mail?extsrc=cal&plid=ACUX6DPn7dazDGYuqCFqKPl9iqZ_Vv6bOWBZ0tA\\n",
+      "last-modified": "20180311T125858Z",
+      "location": "New York City LGA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Flight to Detroit (DL 2983)",
+      "transp": "TRANSPARENT"
+    }, {
+      "dtstart": "20180316T120000Z",
+      "dtend": "20180316T160000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "cgr32e1k6ph3ebb168sjcb9k6oojeb9pclj6abb5cgpjgd1jccpjaor5cg@google.com",
+      "created": "20180309T005726Z",
+      "description": "",
+      "last-modified": "20180309T005726Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "TEAMS",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180310T113000Z",
+      "dtend": "20180310T200000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6di30dpg61i64bb368q3ab9kcgojibb1chgm6b9mc9i6ccpk69h3cd1h6g@google.com",
+      "created": "20180304T052327Z",
+      "description": "",
+      "last-modified": "20180304T052327Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P1D"
+      }]
+    }, {
+      "dtstart": "20180309T210000Z",
+      "dtend": "20180310T033000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "64r34ohicpj3ebb5clh3ib9k6cqj6bb2c4oj0b9k6oq3ie9lccsjae1m6s@google.com",
+      "created": "20180304T052242Z",
+      "description": "",
+      "last-modified": "20180304T052242Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT2H0M0S"
+      }]
+    }, {
+      "dtstart": "20180308T210000Z",
+      "dtend": "20180309T033000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6srj0ohh61h6cbb3ckojgb9k69hj6b9p6ko32b9lcksj0p9n68pm6db1cg@google.com",
+      "created": "20180304T052211Z",
+      "description": "",
+      "last-modified": "20180304T052211Z",
+      "location": "Chick-fil-A Norwalk",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT2H0M0S"
+      }]
+    }, {
+      "dtstart": "20180414T123000Z",
+      "dtend": "20180414T170000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "cdgjacpj6li3gb9n61imcb9kc8s6abb275im4bb26gs3ecpp61gm4chpck@google.com",
+      "created": "20180227T195207Z",
+      "description": "",
+      "last-modified": "20180227T195207Z",
+      "location": "Quinnipiac University\\, 275 Mt Carmel Ave\\, Hamden\\, CT 06518\\, United States",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Programming Challenge",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P1D"
+      }]
+    }, {
+      "dtstart": "20180324T230000Z",
+      "dtend": "20180325T030000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "chijcoj5cdgjgb9o68qm4b9k60r30bb1ckrmab9n6co32p1jcdgm2cr6c4@google.com",
+      "created": "20180226T201724Z",
+      "description": "",
+      "last-modified": "20180226T203316Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Babysitting for Danielle",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }, {
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P7D"
+      }]
+    }, {
+      "dtstart": ["20180311", {
+        "value": "DATE"
+      }],
+      "dtend": ["20180315", {
+        "value": "DATE"
+      }],
+      "dtstamp": "20181231T220626Z",
+      "uid": "6cr64p9p6crjgbb668o3ib9kc4s30bb160rjebb668pj2e31cdh68p1mc8@google.com",
+      "created": "20180226T202002Z",
+      "description": "",
+      "last-modified": "20180226T202002Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Mississippi",
+      "transp": "TRANSPARENT"
+    }, {
+      "dtstart": "20180407T112000Z",
+      "dtend": "20180407T184500Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6dgj0pj66cpjab9j71h30b9k6sq3ib9p6phj2b9kcdj6copnclh3ip36cg@google.com",
+      "created": "20180224T231355Z",
+      "description": "",
+      "last-modified": "20180224T231355Z",
+      "location": "University of Connecticut\\, Storrs\\, CT 06269\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Science Olympiad",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P1D"
+      }]
+    }, {
+      "dtstart": "20180226T220000Z",
+      "dtend": "20180227T010000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6gp3cdhlc5ijcbb660p3eb9kcgrm8b9p6spj2bb66gsj8pj66osjcoj56k@google.com",
+      "created": "20180224T225136Z",
+      "description": "",
+      "last-modified": "20180224T225136Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Deep Clean",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT2H0M0S"
+      }]
+    }, {
+      "dtstart": "20180302T220000Z",
+      "dtend": "20180303T033000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "ckqj6phg68pj8bb4ccqj8b9kcdh3eb9ocoq30b9m6li3id1k68r34db66k@google.com",
+      "created": "20180224T224413Z",
+      "description": " ",
+      "last-modified": "20180224T224641Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT2H0M0S"
+      }]
+    }, {
+      "dtstart": "20180301T210000Z",
+      "dtend": "20180302T020000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "64rj6dj5ckpm6bb66ph34b9k6cq66bb26co34bb16pi68e1j68pm2or5cg@google.com",
+      "created": "20180224T224334Z",
+      "description": "",
+      "last-modified": "20180224T224628Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT2H0M0S"
+      }]
+    }, {
+      "dtstart": "20180227T210000Z",
+      "dtend": "20180228T020000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "68pj8e9l71i6abb360om4b9k75i3ibb269j3ibb36gs64dhp6cr34db4cc@google.com",
+      "created": "20180224T224221Z",
+      "description": "",
+      "last-modified": "20180224T224611Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT2H0M0S"
+      }]
+    }, {
+      "dtstart": "20180304T123000Z",
+      "dtend": "20180304T193000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "cgp6ac1j69im2b9lcko68b9k71gj4b9oclh62b9lcgomadhg68o34chp6c@google.com",
+      "created": "20180223T050739Z",
+      "description": "",
+      "last-modified": "20180223T050739Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180303T113000Z",
+      "dtend": "20180303T200000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "ckqmco9lc4qj2b9h6pi3ab9k6coj2bb175h62b9i6li66d1lcos66c1m60@google.com",
+      "created": "20180223T050700Z",
+      "description": "",
+      "last-modified": "20180223T050700Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180222T130000Z",
+      "dtend": "20180222T140000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6hh3aphp68rj4b9m68pjcb9kc8s36b9p64o3ib9l60p34o9ic9j30cr6c8@google.com",
+      "created": "20180220T034609Z",
+      "description": "",
+      "last-modified": "20180221T190935Z",
+      "location": "Distinctive Dental Service\\, 29 Imperial Ave\\, Westport\\, CT 06880\\, United States",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Dentist appointment",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180222T210000Z",
+      "dtend": "20180222T220000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6spjip9ocpimcb9g60s6cb9k68pm8bb165ij6b9g6kp3eohp60om4phi70@google.com",
+      "created": "20180220T034631Z",
+      "description": "",
+      "last-modified": "20180221T190910Z",
+      "location": "Chick-fil-A Norwalk\\, 467 Connecticut Ave\\, Norwalk\\, CT 06854\\, United States",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "CFA Orientation",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20180225T123000Z",
+      "dtend": "20180225T193000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "74r3go9hckrj2b9lchimab9k68rmcb9o68p32bb16krjad1pchi3echpcc@google.com",
+      "created": "20180220T211719Z",
+      "description": "",
+      "last-modified": "20180220T211719Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT12H0M0S"
+      }]
+    }, {
+      "dtstart": "20180224T113000Z",
+      "dtend": "20180224T200000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "64o6cdpnc9gj6bb670o62b9k71hm2bb26orm6bb2c8s38c9jcko3ic3664@google.com",
+      "created": "20180220T211622Z",
+      "description": "",
+      "last-modified": "20180220T211634Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT12H0M0S"
+      }]
+    }, {
+      "dtstart": "20180305T230000Z",
+      "dtend": "20180306T010000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "cop36e1jckp3ibb46lhm2b9kc8o68b9o68s3cbb16som8dj465i30cr46k@google.com",
+      "created": "20180220T035215Z",
+      "description": "",
+      "last-modified": "20180220T153050Z",
+      "location": "The Granola Bar of Westport\\, 275 Post Rd E\\, Westport\\, CT 06880\\, USA",
+      "sequence": "1",
+      "status": "CONFIRMED",
+      "summary": "TGB Meeting",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": ["20180509T143000", {
+        "tzid": "America/New_York"
+      }],
+      "dtend": ["20180509T164500", {
+        "tzid": "America/New_York"
+      }],
+      "dtstamp": "20181231T220626Z",
+      "uid": "6sp62c1ichgmcbb5cdj3cb9k6spj4bb169gj8bb5cpimad1mccs66p9o60@google.com",
+      "recurrence-id": "20180509T143000",
+      "created": "20180220T034459Z",
+      "description": "",
+      "last-modified": "20180220T035112Z",
+      "location": "McKinley Elementary School\\, 60 Thompson St\\, Fairfield\\, CT 06824\\, USA",
+      "sequence": "1",
+      "status": "CONFIRMED",
+      "summary": "Mentoring",
+      "transp": "OPAQUE",
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": ["20180221T143000", {
+        "tzid": "America/New_York"
+      }],
+      "dtend": ["20180221T164500", {
+        "tzid": "America/New_York"
+      }],
+      "rrule": {
+        "freq": "WEEKLY",
+        "wkst": "SU",
+        "until": "20180613T230000Z",
+        "interval": "1",
+        "byday": "WE"
+      },
+      "exdate": [
+        ["20180606T143000"], {
+          "tzid": "America/New_York"
+        }
+      ],
+      "valarm": [{
+        "action": "DISPLAY",
+        "description": "This is an event reminder",
+        "trigger": "-P0DT0H30M0S"
+      }]
+    }, {
+      "dtstart": "20171027T230000Z",
+      "dtend": "20171028T000000Z",
+      "dtstamp": "20181231T220626Z",
+      "organizer": "mailto:unknownorganizer@calendar.google.com",
+      "uid": "7kukuqrfedlm2f9t8gnhq8vkhpqeftommedtk50gfp0fvfhdoamc48uef3kboauulnk0",
+      "attendee": "mailto:emannguitar@gmail.com",
+      "class": "PRIVATE",
+      "created": "20171027T210120Z",
+      "description": "To see detailed information for automatically created events like this one\\, use the official Google Calendar app. https://g.co/calendar\\n\\nThis event was created from an email you received in Gmail. https://mail.google.com/mail?extsrc=cal&plid=ACUX6DN4U0ws5l47QV-AVL-uXB9KKeJirKGlaTU\\n",
+      "last-modified": "20171027T210139Z",
+      "location": "Legends of Fear at Fairview Tree Farm\\, 2 Saw Mill City Road\\, Shelton\\, CT\\, USA\\, 06484",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Legends of Fear 2017",
+      "transp": "TRANSPARENT"
+    }, {
+      "dtstart": "20170716T220000Z",
+      "dtend": "20170716T230000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6osjgeb564sjab9h6hi36b9k6lhj0b9p75hm8b9hcco3cdph70pj8p316o@google.com",
+      "created": "20170716T000126Z",
+      "description": "",
+      "last-modified": "20170716T000126Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Help Doug",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20170716T180000Z",
+      "dtend": "20170716T213000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "68qjip1ic9i66b9g6tgmcb9kcgp3gbb171i3gbb6cph32p9mccsjadpmcc@google.com",
+      "created": "20170716T000056Z",
+      "description": "",
+      "last-modified": "20170716T000056Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Molly coming over",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20170810T221500Z",
+      "dtend": "20170811T014500Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "64r6cdho6kq66bb26tj6cb9kcopjcb9p60o3gb9pchi64cpj6oq36e1icc@google.com",
+      "created": "20170714T174324Z",
+      "description": "",
+      "last-modified": "20170714T174324Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Class",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20170808T221500Z",
+      "dtend": "20170809T014500Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "69i64dr475j30b9mcgq3cb9k74q64bb2cop3gbb168s34cb3cdhj0ohh6g@google.com",
+      "created": "20170714T174252Z",
+      "description": "",
+      "last-modified": "20170714T174252Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Class",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20170801T221500Z",
+      "dtend": "20170802T014500Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "c9j34cr4c8rj0bb561hmab9k6krj2bb16so3ab9h6dgj2dr564om8c9j74@google.com",
+      "created": "20170714T174235Z",
+      "description": "",
+      "last-modified": "20170714T174235Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Class",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20170727T221500Z",
+      "dtend": "20170728T014500Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "65i3ao9h6kp36b9k71gj0b9k64sj8b9o74q6abb36grjaohhcgojeoj674@google.com",
+      "created": "20170714T174217Z",
+      "description": "",
+      "last-modified": "20170714T174217Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Class",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20170725T221500Z",
+      "dtend": "20170726T014500Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "71hm4cppcgr62b9gcdj3ib9k64s68bb170pj6bb370sjic9pc8q36cr574@google.com",
+      "created": "20170714T174127Z",
+      "description": "",
+      "last-modified": "20170714T174127Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Class",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20170714T221500Z",
+      "dtend": "20170715T013000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "cgs3cc3260qj0b9jckrj0b9kckr6abb2c4s3ibb568pjip3168oj4e3668@google.com",
+      "created": "20170714T174101Z",
+      "description": "",
+      "last-modified": "20170714T174101Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Class",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20170720T221500Z",
+      "dtend": "20170721T014500Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6gpmac1g69gj4b9mc9hj0b9k70o3cbb174r3abb36hi6ao9m6gqm6ophcg@google.com",
+      "created": "20170714T174018Z",
+      "description": "",
+      "last-modified": "20170714T174018Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Class",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20170718T221500Z",
+      "dtend": "20170719T014500Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "c4pj8ohj6oo68bb56limab9kc4sjabb26li3ab9icdhm2e33ckojcc9hc4@google.com",
+      "created": "20170714T173939Z",
+      "description": "",
+      "last-modified": "20170714T173939Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Class",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20170712T214500Z",
+      "dtend": "20170713T010000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "064h3mmlfnd9b5pu10hd36lkac@google.com",
+      "created": "20170627T031225Z",
+      "description": "",
+      "last-modified": "20170627T031225Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20170710T214500Z",
+      "dtend": "20170711T010000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "5guj5ca5rnkb6dpqe46bnvtc0c@google.com",
+      "created": "20170627T031151Z",
+      "description": "",
+      "last-modified": "20170627T031201Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Class",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20170705T214500Z",
+      "dtend": "20170706T010000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6hijcchn6os30bb668o3ib9kcgoj2b9ocor3ib9lc5gjcc9hc8ojaob16o@google.com",
+      "created": "20170627T010028Z",
+      "description": "",
+      "last-modified": "20170627T010105Z",
+      "location": "",
+      "sequence": "1",
+      "status": "CONFIRMED",
+      "summary": "Class (final)",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20170628T214500Z",
+      "dtend": "20170629T010000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "60sjgopmcgr68bb1cdhm6b9k60p36bb2ckrjgbb66srj0p1pc8p66oj664@google.com",
+      "created": "20170627T005727Z",
+      "description": "",
+      "last-modified": "20170627T010046Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Class",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20170630T230000Z",
+      "dtend": "20170701T020000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "c8sm2cr46ph3ebb168ojib9k70p3cbb16pi3cbb1ckrjgdb36phjcdhmcg@google.com",
+      "created": "20170627T010003Z",
+      "description": "",
+      "last-modified": "20170627T010003Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Diner and bowling",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20170629T120000Z",
+      "dtend": "20170629T200000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "chhm4p1l6cpj6b9ic9j6cb9k74ojib9p6cs66b9o6ks3gdhg6ko32d1mcc@google.com",
+      "created": "20170627T005642Z",
+      "description": "",
+      "last-modified": "20170627T005847Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20170627T120000Z",
+      "dtend": "20170627T200000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "71hm4c9hcorjib9i75j6cb9kcgpjabb1cgr3ibb1coqm2opn6ph3ep9ncc@google.com",
+      "created": "20170627T005619Z",
+      "description": "",
+      "last-modified": "20170627T005836Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Work",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20170703T214500Z",
+      "dtend": "20170704T010000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "65i3ge9n6dgj2b9pcpgmcb9kchij4b9p6kq62b9gckrj4dr1c4ojacb268@google.com",
+      "created": "20170627T005818Z",
+      "description": "",
+      "last-modified": "20170627T005819Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Class",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": ["20170803", {
+        "value": "DATE"
+      }],
+      "dtend": ["20170804", {
+        "value": "DATE"
+      }],
+      "dtstamp": "20181231T220626Z",
+      "organizer": "mailto:unknownorganizer@calendar.google.com",
+      "uid": "7kukuqrfedlm2f9tj4ffq8godpetjimc6a15gd76uohlcdvjru0otdp7o3tv6qhqdhhg",
+      "attendee": "mailto:emannguitar@gmail.com",
+      "class": "PRIVATE",
+      "created": "20170519T173614Z",
+      "description": "To see detailed information for automatically created events like this one\\, use the official Google Calendar app. https://g.co/calendar\\n\\nThis event was created from an email you received in Gmail. https://mail.google.com/mail?extsrc=cal&plid=ACUX6DMuU3nafAoqsaVMDabQgFLyYox3-J66H_8\\n",
+      "last-modified": "20170519T173636Z",
+      "location": "Mohegan Sun Arena\\, Montville\\, Connecticut\\, United States\\, 06382",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "LOGIC PRESENTS: Everybody's Tour",
+      "transp": "TRANSPARENT"
+    }, {
+      "dtstart": ["20161215", {
+        "value": "DATE"
+      }],
+      "dtend": ["20161216", {
+        "value": "DATE"
+      }],
+      "dtstamp": "20181231T220626Z",
+      "uid": "69gj6e1mc8s3abb6c4s32b9kckq3ebb168rm6b9pcdij6opm6cpm4e9i70@google.com",
+      "created": "20160915T115817Z",
+      "description": "",
+      "last-modified": "20160915T115817Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Molly's Birthday",
+      "transp": "TRANSPARENT"
+    }, {
+      "dtstart": "20160821T230000Z",
+      "dtend": "20160822T030000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "64s66c1lckr32b9gchgj2b9k69j62bb2c8q3ab9n6dj3cohg6ti62opgco@google.com",
+      "created": "20160817T033005Z",
+      "description": "",
+      "last-modified": "20160817T033214Z",
+      "location": "352 Knapps Hwy\\, Fairfield\\, CT 06825\\, USA",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Party",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20160819T160000Z",
+      "dtend": "20160821T170000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "cli3coj674rj2bb6c4q6ab9k68smabb26or32bb165j30phgcgqm2d9m60@google.com",
+      "created": "20160817T033004Z",
+      "description": "",
+      "last-modified": "20160817T033004Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Camping",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20160822T123000Z",
+      "dtend": "20160822T160000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "70s68e1n61i3gb9mcpi6cb9k6hh3ab9p6ssjibb16sojieb1cko30c9h70@google.com",
+      "created": "20160817T032650Z",
+      "description": "",
+      "last-modified": "20160817T032650Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Babysitting",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20160818T123000Z",
+      "dtend": "20160818T160000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6csj4d1icgsm4bb4c9h6ab9k64qjibb164p6abb3ccpjec9l6ksm6c34co@google.com",
+      "created": "20160817T032649Z",
+      "description": "",
+      "last-modified": "20160817T032649Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Babysitting",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20160618T170000Z",
+      "dtend": "20160618T220000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "c5h30dppcgqmcb9oc4pmab9k6ssjab9p6sojcbb1c8ojecb16oq3cp1p60@google.com",
+      "created": "20160604T234520Z",
+      "description": "",
+      "last-modified": "20160604T234520Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Monique's Birthday Party",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": "20160617T230000Z",
+      "dtend": "20160618T160000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "6sqj6or174sm2b9gckojib9k74rjcbb2cpim6b9kccs3ce9hc5j36chm6g@google.com",
+      "created": "20160604T234239Z",
+      "description": "",
+      "last-modified": "20160604T234240Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "tøp concert",
+      "transp": "OPAQUE"
+    }, {
+      "dtstart": ["20160811", {
+        "value": "DATE"
+      }],
+      "dtend": ["20160812", {
+        "value": "DATE"
+      }],
+      "dtstamp": "20181231T220626Z",
+      "uid": "6gs3ce1hclhjeb9l6gs62b9k6gpj0bb1c5h3gb9l60o62c31c8sj6p3170@google.com",
+      "created": "20160604T234238Z",
+      "description": "",
+      "last-modified": "20160604T234238Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "Maryland Crabbing",
+      "transp": "TRANSPARENT"
+    }, {
+      "dtstart": "20160407T030000Z",
+      "dtend": "20160407T040000Z",
+      "dtstamp": "20181231T220626Z",
+      "uid": "c8rj6phnckr66b9ncgp3cb9k6hhjgbb16kr3ib9kclgjcc1g6pgjcd1j64@google.com",
+      "created": "20160406T013738Z",
+      "description": "",
+      "last-modified": "20160406T013738Z",
+      "location": "",
+      "sequence": "0",
+      "status": "CONFIRMED",
+      "summary": "I\\, Robot project reflection due",
+      "transp": "OPAQUE"
+    }]
+  }],
+  "success": true
+}

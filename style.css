@@ -1,0 +1,108 @@
+/* || general styles */
+html {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+body {
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.cal-container {
+  float: left;
+  width: 16.66%;
+  padding: 5px;
+}
+.weather-container {
+  float: left;
+  width: 16.66%;
+  padding: 5px;
+}
+.current-container1 {
+  float: left;
+  width: 15%;
+  padding: 5px;
+  font-size: 76px;
+  text-align: right;
+}
+.current-container2 {
+  float: left;
+  position: relative;
+  height: 240px;
+  width: 85%;
+  padding: 5px;
+}
+.temps {
+  float: left;
+  width: 25%;
+  text-align: right;
+}
+.test {
+  text-align: center;
+}
+.calendar::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.weather::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.weather-container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.weather-dates {
+  text-align: center;
+}
+.dayte {
+  color: #dadfe8;
+  padding : 5;
+  margin : 5;
+  line-height : 20px;
+}
+
+#container {
+   min-height:100%;
+   position:relative;
+}
+#header {
+   padding:0px;
+}
+#time {
+  font-size: 76px;
+  padding : 5;
+  margin : 5;
+  line-height : 75px;
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height: auto;   /* Height of the footer */
+}
+#current_icon {
+  position:absolute;
+  bottom:0;
+}
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+  opacity: .5;
+  z-index: -1;
+}

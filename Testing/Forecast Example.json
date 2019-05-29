@@ -1,0 +1,144 @@
+{
+  "Headline": {
+    "EffectiveDate": "2019-01-30T13:00:00-05:00",
+    "EffectiveEpochDate": 1548871200,
+    "Severity": 2,
+    "Text": "Watch for a snow squall early tomorrow afternoon",
+    "Category": "snow",
+    "EndDate": "2019-01-30T16:00:00-05:00",
+    "EndEpochDate": 1548882000,
+    "MobileLink": "http://m.accuweather.com/en/us/fairfield-ct/06824/extended-weather-forecast/332270?lang=en-us",
+    "Link": "http://www.accuweather.com/en/us/fairfield-ct/06824/daily-weather-forecast/332270?lang=en-us"
+  },
+  "DailyForecasts": [{
+    "Date": "2019-01-29T07:00:00-05:00",
+    "EpochDate": 1548763200,
+    "Temperature": {
+      "Minimum": {
+        "Value": 20.0,
+        "Unit": "F",
+        "UnitType": 18
+      },
+      "Maximum": {
+        "Value": 39.0,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "Day": {
+      "Icon": 29,
+      "IconPhrase": "Rain and snow"
+    },
+    "Night": {
+      "Icon": 29,
+      "IconPhrase": "Rain and snow"
+    },
+    "Sources": ["AccuWeather"],
+    "MobileLink": "http://m.accuweather.com/en/us/fairfield-ct/06824/daily-weather-forecast/332270?day=1&lang=en-us",
+    "Link": "http://www.accuweather.com/en/us/fairfield-ct/06824/daily-weather-forecast/332270?day=1&lang=en-us"
+  }, {
+    "Date": "2019-01-30T07:00:00-05:00",
+    "EpochDate": 1548849600,
+    "Temperature": {
+      "Minimum": {
+        "Value": 3.0,
+        "Unit": "F",
+        "UnitType": 18
+      },
+      "Maximum": {
+        "Value": 29.0,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "Day": {
+      "Icon": 23,
+      "IconPhrase": "Mostly cloudy w/ snow"
+    },
+    "Night": {
+      "Icon": 35,
+      "IconPhrase": "Partly cloudy"
+    },
+    "Sources": ["AccuWeather"],
+    "MobileLink": "http://m.accuweather.com/en/us/fairfield-ct/06824/daily-weather-forecast/332270?day=2&lang=en-us",
+    "Link": "http://www.accuweather.com/en/us/fairfield-ct/06824/daily-weather-forecast/332270?day=2&lang=en-us"
+  }, {
+    "Date": "2019-01-31T07:00:00-05:00",
+    "EpochDate": 1548936000,
+    "Temperature": {
+      "Minimum": {
+        "Value": 6.0,
+        "Unit": "F",
+        "UnitType": 18
+      },
+      "Maximum": {
+        "Value": 17.0,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "Day": {
+      "Icon": 31,
+      "IconPhrase": "Cold"
+    },
+    "Night": {
+      "Icon": 33,
+      "IconPhrase": "Clear"
+    },
+    "Sources": ["AccuWeather"],
+    "MobileLink": "http://m.accuweather.com/en/us/fairfield-ct/06824/daily-weather-forecast/332270?day=3&lang=en-us",
+    "Link": "http://www.accuweather.com/en/us/fairfield-ct/06824/daily-weather-forecast/332270?day=3&lang=en-us"
+  }, {
+    "Date": "2019-02-01T07:00:00-05:00",
+    "EpochDate": 1549022400,
+    "Temperature": {
+      "Minimum": {
+        "Value": 11.0,
+        "Unit": "F",
+        "UnitType": 18
+      },
+      "Maximum": {
+        "Value": 23.0,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "Day": {
+      "Icon": 3,
+      "IconPhrase": "Partly sunny"
+    },
+    "Night": {
+      "Icon": 35,
+      "IconPhrase": "Partly cloudy"
+    },
+    "Sources": ["AccuWeather"],
+    "MobileLink": "http://m.accuweather.com/en/us/fairfield-ct/06824/daily-weather-forecast/332270?day=4&lang=en-us",
+    "Link": "http://www.accuweather.com/en/us/fairfield-ct/06824/daily-weather-forecast/332270?day=4&lang=en-us"
+  }, {
+    "Date": "2019-02-02T07:00:00-05:00",
+    "EpochDate": 1549108800,
+    "Temperature": {
+      "Minimum": {
+        "Value": 21.0,
+        "Unit": "F",
+        "UnitType": 18
+      },
+      "Maximum": {
+        "Value": 29.0,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "Day": {
+      "Icon": 3,
+      "IconPhrase": "Partly sunny"
+    },
+    "Night": {
+      "Icon": 35,
+      "IconPhrase": "Partly cloudy"
+    },
+    "Sources": ["AccuWeather"],
+    "MobileLink": "http://m.accuweather.com/en/us/fairfield-ct/06824/daily-weather-forecast/332270?day=5&lang=en-us",
+    "Link": "http://www.accuweather.com/en/us/fairfield-ct/06824/daily-weather-forecast/332270?day=5&lang=en-us"
+  }]
+}
