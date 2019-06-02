@@ -1,0 +1,4 @@
+*.yaml
+config.py
+__pycache__/
+.idea/
