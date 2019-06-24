@@ -1,6 +1,6 @@
 from flask import Flask, flash, redirect, render_template, request, session, abort
 import requests
-from datetime import datetime
+from datetime import datetime, timedelta
 import threading
 import config
 
@@ -10,8 +10,17 @@ threads = []
 
 @app.route("/")
 def index():
-    return render_template("index.html", current_conditions=get_current_weather(), forecast=get_forecast_weather())
+    return render_template("index.html", current_conditions=get_current_weather(),
+                           forecast=get_forecast_weather(), timestuff=get_time_stuff())
 
+def get_time_stuff():
+    today = datetime.now()
+    timestuff = [(today.strftime('%A'), today.strftime('%B %d'))]
+    for i in range(1, 5):
+        day = today+timedelta(days=i)
+        timestuff.append((day.strftime('%A'), day.day))
+
+    return timestuff
 
 def get_current_weather():
     response = requests.get(f"http://dataservice.accuweather.com/currentconditions/v1/2217809?apikey={config.API_KEYS['accuweather']}")

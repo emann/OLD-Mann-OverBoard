@@ -16,37 +16,27 @@
     <div id="header">
       <div class="calendar">
         <div class="cal-container">
-          <p id="time"></p>
-          <p id="weekday" class="dayte"></p>
-          <p id="date" class="dayte"></p>
+          <p id="time">{{ timestuff[0][0] }}</p>
+          <p id="weekday" class="dayte">{{ timestuff[0][1] }}</p>
+          <p id="date" class="dayte">{{ timestuff[0][2] }}</p>
         </div>
         <div class="cal-container">
           <p id="cal_day0">Today</p>
           <ul id="cal_day0_list" style="list-style-type:none;"></ul>
         </div>
+        {% for x in range(1, 5) %}
         <div class="cal-container">
-          <p id="cal_day1"></p>
-          <ul id="cal_day1_list" style="list-style-type:none;"></ul>
+          <p>{{ timestuff[x][0] }} {{ timestuff[x][1] }}</p>
+          <ul style="list-style-type:none;"></ul>
         </div>
-        <div class="cal-container">
-          <p id="cal_day2"></p>
-          <ul id="cal_day2_list" style="list-style-type:none;"></ul>
-        </div>
-        <div class="cal-container">
-          <p id="cal_day3"></p>
-          <ul id="cal_day3_list" style="list-style-type:none;"></ul>
-        </div>
-        <div class="cal-container">
-          <p id="cal_day4"></p>
-          <ul id="cal_day4_list" style="list-style-type:none;"></ul>
-        </div>
+        {% endfor %}
       </div>
     </div>
     <div id="footer">
       <div class="weather">
         <div class="weather-container">
           <div class="current-container1">
-            <p id="current_temp">{{current_conditions["temp"]}}</p>
+            <p id="current_temp">{{current_conditions["temp"]}}°</p>
           </div>
           <div class="current-container2">
             <a href = "fullsettingspage.html" style="color: #ffffff; text-decoration: none;">
